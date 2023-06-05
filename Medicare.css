@@ -1,0 +1,111 @@
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
+    display: block;
+}
+
+
+
+
+.btMenuHorizontal.btMenuRight .menuPort nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.btContentHolder figure, .btContentHolder img, .btContentHolder select {
+    max-width: 102%;
+    margin-top: 1px;
+    height: auto;
+}
+
+.btCircleImage .btImage img {
+    width: auto;
+    margin-left: 0px;
+}
+
+.btImage img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 22px;
+    width: 41%;
+}
+
+.btContentHolder img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    width: 192%;
+}
+
+.wBackground.cover{
+    background-position: 49% 40px;
+}
+
+.btTextIndent .btImage img {
+    width: 100%;
+    max-width: none;
+    display: block;
+    margin: 0;
+    height: 285px;
+}
+
+
+.bi-stopwatch{
+    position: absolute;
+    margin-left: -73px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.bi-phone-vibrate{
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.bi-facebook{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+    color: gray;
+}
+
+
+.bi-twitter{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -10px;
+    color: gray;
+}
+
+.bi-linkedin{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -10px;
+    color: gray;
+}
+
+.bi-search{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -5px;
+}
+
+.btLightSkin button:before{
+    display: none;
+    /* margin-top: 0px; */
+}
+
+.topBar .widget_search button:before{
+    display: none;
+}
+
+
+/* .btDoublePadding .rowItemContent .bi-arrow-right-circle{
+    margin-left: 20px;
+} */
