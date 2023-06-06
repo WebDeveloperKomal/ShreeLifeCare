@@ -7,8 +7,6 @@
 }
 
 
-
-
 .btMenuHorizontal.btMenuRight .menuPort nav {
     float: right;
     margin-top: 10px;
@@ -105,7 +103,124 @@
     display: none;
 }
 
+.sIcon svg{
+    color: #007ac6;
+}
 
-/* .btDoublePadding .rowItemContent .bi-arrow-right-circle{
-    margin-left: 20px;
-} */
+
+.sIcon1 svg{
+    color: #007ac6;
+}
+.sTxt1 .header .headline {
+    display: block;
+    margin-top: 66px;
+}
+
+.btIconImageRow svg{
+    color: #007ac6;
+}
+
+
+.btIconImageRow svg{
+    counter-reset: #00c6af;
+}
+
+.btIconImageRow #Ivf{
+    width: 110px;
+}
+
+
+#Dental{
+    width: 120px;
+    /* height: 150px; */
+}
+
+#Dental1{
+    width: 130px;
+    height: 150px;
+}
+
+#GYNECOLOGY{
+    height: 120px;
+}
+
+
+.bi-chevron-down{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: 170px;
+}
+
+
+.fancy-select .trigger:after {
+    display: none;
+}
+
+#fb{
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 7px;
+    color: #ffffff;
+}
+
+#tw{
+    margin-left: -32px;
+    margin-top: 7px;
+    color: #ffffff;
+}
+
+#Go{
+    margin-left: -23px;
+    margin-top: 7px;
+    color: #ffffff;
+}
+
+#tw1{
+    margin-left: -22px;
+    margin-top: 7px;
+    color: #ffffff;
+}
+
+#fb1{
+    position: absolute;
+    margin-left: -23px;
+    margin-top: 7px;
+    color: #000000;
+}
+
+#go1{
+    margin-left: -29px;
+    margin-top: 7px;
+    color: #000000;
+}
+
+#TW2{
+    margin-left: -22px;
+    margin-top: 7px;
+    color: #000000;
+}
+
+#phone{
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+
+#fb-last{
+    color: #007ac6;
+    margin-left: -10px;
+    margin-top: 3px;
+}
+
+#tw-last{
+    color: #007ac6;
+    margin-left: -10px;
+    margin-top: 3px;
+}
+
+
+#Li-last{
+    color: #007ac6;
+    margin-left: -10px;
+    margin-top: 3px;
+}
