@@ -183,21 +183,27 @@
 
 #fb1{
     position: absolute;
-    margin-left: -23px;
-    margin-top: 7px;
-    color: #000000;
+    margin-left: -30px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+#fb1:hover,
+#TW2:hover,
+#go1:hover{
+    color: #007ac6;
 }
 
 #go1{
-    margin-left: -29px;
-    margin-top: 7px;
-    color: #000000;
+    margin-left: 30px;
+    margin-top: 0px;
+    color: #fff;
 }
 
 #TW2{
-    margin-left: -22px;
-    margin-top: 7px;
-    color: #000000;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #fff;
 }
 
 #phone{
@@ -295,4 +301,8 @@ margin-top: -10px
 #Pediatrics{
     /* position: absolute; */
     margin-top: -35px;
+}
+
+.wBackground.cover {
+    background-position: 68% -59px;
 }
