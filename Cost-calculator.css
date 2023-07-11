@@ -1,0 +1,79 @@
+/* ********** nav css ************** */
+
+.bi-stopwatch {
+    position: absolute;
+    margin-left: -73px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.bi-phone-vibrate {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
+    display: block;
+}
+
+
+/* ********** nav css ************** */
+
+
+
+/* ************ side chat css ************** */
+.Dentist_round {
+    position: absolute;
+    background-color: #007ac6;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-top: 10px;
+    transition: 0.55s;
+}
+
+
+#Dentist {
+    margin-top: -20px;
+}
+
+#Dentist1 {
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+}
+/* ************ side chat css ************** */
+
+
+
+/* ************ Shree_life_care ***************** */
+#GYNECOLOGY1{
+    margin-top: -15px;
+}
+
+#Laboratory{
+    margin-top: 10px;
+}
+
+#Pediatrics{
+    /* position: absolute; */
+    margin-top: -35px;
+}
+#Ivf{
+   margin-top: 10px;
+}
+/* ************ Shree_life_care ***************** */
+
+
+/* ******** footer css *********** */
+.btImage #Last_Logo {
+    width: 41%;
+}
+
+/* ******** footer css *********** */

@@ -1,4 +1,3 @@
-
 /* ********** nav css ************** */
 
 .bi-stopwatch {
@@ -15,6 +14,7 @@
     color: #fff;
 }
 
+
 .menuHolder .logo img {
     height: 98px;
     width: 283px;
@@ -22,6 +22,7 @@
     margin-left: -50px;
     display: block;
 }
+
 
 
 /* ********** nav css ************** */
@@ -39,5 +40,5 @@
 .btImage #Last_Logo {
     width: 41%;
 }
-/* ******** footer css *********** */
 
+/* ******** footer css *********** */

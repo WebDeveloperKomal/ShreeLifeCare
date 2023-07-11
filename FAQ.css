@@ -1,3 +1,4 @@
+
 /* ********** nav css ************** */
 
 .bi-stopwatch {
@@ -25,45 +26,53 @@
 
 /* ********** nav css ************** */
 
-.sIcon svg{
-    color: #007ac6;
-}
 
-#phone {
-    margin-left: 2px;
-    margin-top: -10px;
-}
-
-
-
-.EMERGENCY_CON,
-.HOME_VISIT,
-.PHONE_CONTACT{
+.PHONE_CONTACT {
     position: absolute;
     background-color: #007ac6;
-    margin-top: -105px;
-   margin-left: 100px;
+    margin-top: -55px;
+    margin-left: -40px;
     border-radius: 90px;
-    height: 90px;
-    width: 90px;
-    
+    height: 80px;
+    width: 80px;
+
 }
 
-#EMERGENCY_CON_img,
-#PHONE_CONTACT_img,
-#HOME_VISIT_img{
-    height: 70px;
-    width: 70px;
-    margin-top: 7px;
+
+#PHONE_CONTACT_img {
+    height: 60px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+.PHONE_CONTACT .bi-geo-alt-fill,
+.PHONE_CONTACT .bi-heart-pulse {
+    margin-top: 20px;
+}
+
+.rowItemContent .btImage #Doctors {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: 0px;
+    height: 375px;
+    width: 100%;
+}
+
+
+.bi-caret-down-fill {
+    position: relative;
+    color: #007AC6;
+    display: flex;
+    top: -18px;
+    margin-left: 500px;
 }
 
 
 /* ******** footer css *********** */
+
 .btImage #Last_Logo {
     width: 41%;
 }
 
 /* ******** footer css *********** */
-
-
-

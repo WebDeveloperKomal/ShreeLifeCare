@@ -25,99 +25,93 @@
 
 /* ********** nav css ************** */
 
-/* ******** TIME Chat Css *********** */
-.btWorkingHoursInnerLink a:after {
-    display: none;
-}
-
-#bi-stopwatch .bi-stopwatch{
-    margin-left: -20px;
-}
-
-/* ******** TIME Chat Css *********** */
-
-
-/* *************** dr info ************* */
-
-.Dr_Pediatrician {
+.Dr_Pediatrician{
     position: absolute;
     background-color: #007ac6;
     margin-top: -105px;
     border-radius: 90px;
 }
 
-#Pediatrics {
+#Pediatrics{
     /* position: absolute; */
     margin-top: -35px;
 }
-
-#Dr_Pediatrician_img {
+#Dr_Pediatrician_img{
     height: 100px;
     width: 100px;
 }
 
-.Dr_Surgeon {
+.Dr_Surgeon{
     position: absolute;
     background-color: #007ac6;
     margin-top: -105px;
     border-radius: 90px;
 }
 
-#Dr_Surgeon_img {
+#Dr_Surgeon_img{
     height: 110px;
     width: 100px;
     margin-top: -10px;
 }
 
-.btTextIndent .btImage img {
+.btTextIndent .btImage img {    
     height: 273px;
 }
 
 
 
-#GYNECOLOGY1 {
+#GYNECOLOGY1{
     margin-top: -15px;
 }
 
-#Laboratory {
+#Laboratory{
     margin-top: 10px;
 }
 
-#Pediatrics {
+#Pediatrics{
+    /* position: absolute; */
     margin-top: -35px;
 }
 
 
-#Dental1 {
+#Dental1{
     width: 130px;
     height: 170px;
 }
 
+/* ***************** max *********************** */
 
-/* *************** dr info ************* */
+.bt_bb_height_auto .slick-slider .slick-slide img {
+    margin-left: 62px;
+    max-width: none;
+    width: 68%;
+    height: auto;
+    display: block;
+}
+
 
 /* *********** MAP Css *********** */
 
-.sIcon svg {
+.sIcon svg{
     color: #007ac6;
 }
 
-.sIcon svg:hover {
+.sIcon svg:hover{
     color: aqua;
 }
-
-#phone {
+#phone{
     margin-left: 2px;
     margin-top: -10px;
 }
 
+.sTxt1 .header .headline {
+    display: block;
+    margin-top: 66px;
+}
+
 /* *********** MAP Css *********** */
 
-/* ******** footer css *********** */
 .btImage #Last_Logo{
     width: 41%;
 }
-
-/* ******** footer css *********** */
-
 
