@@ -1,0 +1,55 @@
+
+/* ********** nav css ************** */
+
+.bi-stopwatch {
+    position: absolute;
+    margin-left: -73px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.bi-phone-vibrate {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
+    display: block;
+}
+
+
+/* ********** nav css ************** */
+
+#Dental1{
+    width: 130px;
+    height: 150px;
+}
+
+
+
+#Laboratory{
+    margin-top: 10px;
+}
+#Pediatrics{
+    /* position: absolute; */
+    margin-top: -35px;
+}
+
+#INFERTILITY{
+    width: 130px;
+    height: 150px;
+}
+
+
+/* ******** footer css *********** */
+.btImage #Last_Logo {
+    width: 41%;
+}
+
+/* ******** footer css *********** */

@@ -1,0 +1,149 @@
+/* ********** nav css ************** */
+
+.bi-stopwatch {
+    position: absolute;
+    margin-left: -73px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.bi-phone-vibrate {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
+    display: block;
+}
+
+
+/* ********** nav css ************** */
+
+
+
+/* ************** BOX ******************* */
+.Dentist_round {
+    position: absolute;
+    background-color: #007ac6;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-top: -40px;
+    transition: 0.55s;
+}
+
+.Dentist_round1 {
+    position: absolute;
+    background-color: #007ac6;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-top: -90px;
+    transition: 0.55s;
+}
+
+#Dentist {
+    margin-top: -20px;
+}
+
+#Pediatrician {
+    margin-top: -5px;
+}
+
+#Health {
+    margin-top: -8px;
+}
+
+
+/* ************** BOX END ******************* */
+
+
+/* *************** dr info ************* */
+
+.Dr_Pediatrician {
+    position: absolute;
+    background-color: #007ac6;
+    margin-top: -105px;
+    border-radius: 90px;
+}
+
+#Pediatrics {
+    /* position: absolute; */
+    margin-top: -35px;
+}
+
+#Dr_Pediatrician_img {
+    height: 100px;
+    width: 100px;
+}
+
+.Dr_Surgeon {
+    position: absolute;
+    background-color: #007ac6;
+    margin-top: -105px;
+    border-radius: 90px;
+}
+
+#Dr_Surgeon_img {
+    height: 110px;
+    width: 100px;
+    margin-top: -10px;
+}
+
+.btTextIndent .btImage img {
+    height: 273px;
+}
+
+
+
+#GYNECOLOGY1 {
+    margin-top: -15px;
+}
+
+#Laboratory {
+    margin-top: 10px;
+}
+
+#Pediatrics {
+    margin-top: -35px;
+}
+
+
+#Dental1 {
+    width: 130px;
+    height: 170px;
+}
+
+
+/* *************** dr info ************* */
+
+
+/* *********** MAP Css *********** */
+
+.sIcon svg {
+    color: #007ac6;
+}
+
+.sIcon svg:hover {
+    color: aqua;
+}
+
+#phone {
+    margin-left: 2px;
+    margin-top: -10px;
+}
+
+/* *********** MAP Css *********** */
+
+/* ******** footer css *********** */
+.btImage #Last_Logo {
+    width: 41%;
+}
+
+/* ******** footer css *********** */

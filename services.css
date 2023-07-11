@@ -1,0 +1,86 @@
+/* ********** nav css ************** */
+
+.bi-stopwatch {
+    position: absolute;
+    margin-left: -73px;
+    margin-top: 4px;
+    color: #fff;
+}
+
+.bi-phone-vibrate {
+    position: absolute;
+    margin-left: -29px;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
+    display: block;
+}
+
+
+/* ********** nav css ************** */
+
+
+.Dentist_round {
+    position: absolute;
+    background-color: #007ac6;
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-top: -40px;
+    transition: 0.55s;
+}
+
+#Dentist {
+    margin: 10px;
+    width: 60px;
+}
+
+
+
+
+/* ************** last round **************** */
+
+.btContentHolder #circal_f1 {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: -170px;
+}
+
+.bt_bb_progress_bar_advanced[data-container-type="circle"] .progressbar-text {
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    display: none;
+    transform: none !important;
+}
+
+
+.rowItemContent #circal_f1 {
+    margin-top: -155px;
+    width: 200px;
+}
+
+.bt_bb_progress_bar_advanced>p {
+    font-family: "Montserrat";
+    margin-top: 65px;
+}
+
+
+/* ************** last round **************** */
+
+
+/* ******** footer css *********** */
+.btImage #Last_Logo {
+    width: 41%;
+}
+
+/* ******** footer css *********** */

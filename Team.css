@@ -1,59 +1,3 @@
-.menuHolder .logo img {
-    height: 98px;
-    width: 283px;
-    margin-top: -16px;
-    margin-left: -50px;
-    display: block;
-}
-
-
-.btMenuHorizontal.btMenuRight .menuPort nav {
-    float: right;
-    margin-top: 10px;
-}
-
-.btContentHolder figure,
-.btContentHolder img,
-.btContentHolder select {
-    max-width: 102%;
-    margin-top: 1px;
-    height: auto;
-}
-
-.btCircleImage .btImage img {
-    width: auto;
-    margin-left: 0px;
-}
-
-.btImage img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: 22px;
-    width: 41%;
-}
-
-.btContentHolder img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: 0px;
-    width: 192%;
-}
-
-.wBackground.cover {
-    background-position: 49% 40px;
-}
-
-.btTextIndent .btImage img {
-    width: 100%;
-    max-width: none;
-    display: block;
-    margin: 0;
-    height: 285px;
-}
-
-
 /* ********** nav css ************** */
 
 .bi-stopwatch {
@@ -63,234 +7,20 @@
     color: #fff;
 }
 
-.bi-phone-vibrate {
+.bi-phone-vibrate{
     position: absolute;
     margin-left: -29px;
     margin-top: 5px;
     color: #fff;
 }
 
-.bi-facebook {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: -10px;
-    color: gray;
-}
-
-
-.bi-twitter {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: -10px;
-    color: gray;
-}
-
-.bi-linkedin {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: -10px;
-    color: gray;
-}
-
-.bi-search {
-    position: absolute;
-    margin-left: -10px;
-    margin-top: 29px;
-}
-
-.touch .menuPort nav>ul>li.menu-item-has-children>.subToggler {
-    display: none;
-}
-
-.topBar .widget_search button,
-.topBarInMenu .widget_search button {
+.menuHolder .logo img {
+    height: 98px;
+    width: 283px;
+    margin-top: -16px;
+    margin-left: -50px;
     display: block;
-    top: -161%;
 }
-
-
-
-/* ********** nav css ************** */
-
-
-
-#Dental {
-    width: 120px;
-    /* height: 150px; */
-}
-
-#Dental1 {
-    width: 130px;
-    height: 150px;
-}
-
-#GYNECOLOGY {
-    height: 120px;
-}
-
-
-.bi-chevron-down {
-    position: absolute;
-    margin-top: -70px;
-    margin-left: 170px;
-}
-
-
-.fancy-select .trigger:after {
-    display: none;
-}
-
-#fb {
-    position: absolute;
-    margin-left: -22px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#tw {
-    margin-left: -32px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#Go {
-    margin-left: -23px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#tw1 {
-    margin-left: -22px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#fb1 {
-    position: absolute;
-    margin-left: -30px;
-    margin-top: 0px;
-    color: #fff;
-}
-
-#fb1:hover,
-#TW2:hover,
-#go1:hover {
-    color: #007ac6;
-}
-
-#go1 {
-    margin-left: 30px;
-    margin-top: 0px;
-    color: #fff;
-}
-
-#TW2 {
-    margin-left: 0px;
-    margin-top: 0px;
-    color: #fff;
-}
-
-#phone {
-    margin-left: 2px;
-    margin-top: -10px;
-}
-
-
-#fb-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
-
-#tw-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
-
-
-#Li-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
-
-.Dentist_round {
-    position: absolute;
-    background-color: #007ac6;
-    width: 80px;
-    height: 80px;
-    border-radius: 60px;
-    margin-top: -40px;
-    transition: 0.55s;
-}
-
-.Dentist_round:hover {
-    background-color: white;
-}
-
-.Dentist_round1 {
-    position: absolute;
-    background-color: #007ac6;
-    width: 80px;
-    height: 80px;
-    border-radius: 60px;
-    margin-top: -90px;
-    transition: 0.55s;
-}
-
-#Dentist {
-    margin-top: -20px;
-}
-
-#Pediatrician {
-    margin-top: -500px;
-    margin-left: -200px;
-}
-
-#Health {
-    margin-top: -8px;
-}
-
-#GYNECOLOGY1 {
-    margin-top: -15px;
-}
-
-.Dr_Pediatrician {
-    position: absolute;
-    background-color: #007ac6;
-    margin-top: -105px;
-    border-radius: 90px;
-    /* margin-left: -200px; */
-}
-
-#Dr_Pediatrician_img {
-    height: 100px;
-    width: 100px;
-}
-
-.Dr_Surgeon {
-    position: absolute;
-    background-color: #007ac6;
-    margin-top: -105px;
-    border-radius: 90px;
-}
-
-#Dr_Surgeon_img {
-    height: 110px;
-    width: 100px;
-    margin-top: -10px
-}
-
-#Laboratory {
-    margin-top: 10px;
-}
-
-#Pediatrics {
-    /* position: absolute; */
-    margin-top: -35px;
-}
-
 .wBackground.cover {
     background-position: 68% -59px;
 }
@@ -300,6 +30,76 @@
 }
 
 
+/* ********** nav css ************** */
+
+/* ******** Dr Info ******** */
+
+.Dr_Pediatrician{
+    position: absolute;
+    background-color: #007ac6;
+    margin-top: -105px;
+    border-radius: 90px;
+}
+
+#Pediatrics{
+    /* position: absolute; */
+    margin-top: -35px;
+}
+#Dr_Pediatrician_img{
+    height: 100px;
+    width: 100px;
+}
+
+.Dr_Surgeon{
+    position: absolute;
+    background-color: #007ac6;
+    margin-top: -105px;
+    border-radius: 90px;
+}
+
+#Dr_Surgeon_img{
+    height: 110px;
+    width: 100px;
+    margin-top: -10px;
+}
+
+.btTextIndent .btImage img {    
+    height: 273px;
+}
+
+
+
+#GYNECOLOGY1{
+    margin-top: -15px;
+}
+
+#Laboratory{
+    margin-top: 10px;
+}
+
+#Pediatrics{
+    /* position: absolute; */
+    margin-top: -35px;
+}
+
+
+#Dental1{
+    width: 130px;
+    height: 170px;
+}
+
+/* ******** Dr Info ******** */
+
+/* ************** last round **************** */
+
+.btContentHolder #circal_f1 {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 50px;
+    width: 100%;
+    margin-top: -170px;
+}
 
 .bt_bb_progress_bar_advanced[data-container-type="circle"] .progressbar-text {
     -webkit-transform: none !important;
@@ -311,89 +111,22 @@
 
 
 .rowItemContent #circal_f1 {
-    margin-top: -230px;
-    width: 250px;
+    margin-top: -155px;
+    width: 200px;
+}
+
+.bt_bb_progress_bar_advanced>p {
+    font-family: "Montserrat";
+    margin-top: 65px;
 }
 
 
-.btnOutlineStyle.btnAccentColor {
-    background-color: transparent;
-    border: 2px solid #007AC6;
-    color: #007AC6;
+/* ************** last round **************** */
+
+
+/* ******** footer css *********** */
+.btImage #Last_Logo{
+    width: 41%;
 }
 
-
-/* *************  shree_life_care ******* */
-
-.port .boldCell .boldCellInner .boldRow .boldRowInner .rowItemContent header .btSuperTitle1 {
-    color: #444444;
-    font-size: 20px;
-    font-family: "Roboto Condensed";
-}
-
-.port .boldCell .boldCellInner .boldRow .boldRowInner .rowItemContent header .dash1 em{
-    color: #444444;
-}
-
-.port .boldCell .boldCellInner .boldRow .boldRowInner .rowItemContent header .btSubTitle1{
-    color: #444444;
-    font-size: 20px;
-    font-family: "Roboto";
-}
-
-.port .boldCell .boldCellInner .rowItemContent header .dash .headline1 {
- color: #444444;
-}
-
-.port .boldCell .boldCellInner .rowItemContent .btText1 {
-    color: #444444;
-    font-size: 13px;
-   }
-
-/* ************* */
-   .port .boldCell .boldCellInner .rowItemContent header .dash .headline2 {
-    color: #444444;
-   }
-   
-   .port .boldCell .boldCellInner .rowItemContent .btText2 {
-       color: #444444;
-       font-size: 13px;
-      }
-      /* ************* */
-   .port .boldCell .boldCellInner .rowItemContent header .dash .headline3 {
-    color: #444444;
-   }
-   
-   .port .boldCell .boldCellInner .rowItemContent .btText3 {
-       color: #444444;
-       font-size: 13px;
-      }
-      /* ************* */
-   .port .boldCell .boldCellInner .rowItemContent header .dash .headline4 {
-    color: #444444;
-   }
-   
-   .port .boldCell .boldCellInner .rowItemContent .btText4 {
-       color: #444444;
-       font-size: 13px;
-      }
-      /* ************* */
-   .port .boldCell .boldCellInner .rowItemContent header .dash .headline5 {
-    color: #444444;
-   }
-   
-   .port .boldCell .boldCellInner .rowItemContent .btText5 {
-       color: #444444;
-       font-size: 13px;
-      }
-
-      /* ************* */
-   .port .boldCell .boldCellInner .rowItemContent header .dash .headline6 {
-    color: #444444;
-   }
-   
-   .port .boldCell .boldCellInner .rowItemContent .btText6 {
-       color: #444444;
-       font-size: 13px;
-      }
-   /* *************  shree_life_care ******* */
+/* ******** footer css *********** */

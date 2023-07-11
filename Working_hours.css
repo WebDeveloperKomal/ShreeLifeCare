@@ -1,4 +1,3 @@
-
 /* ********** nav css ************** */
 
 .bi-stopwatch {
@@ -15,44 +14,6 @@
     color: #fff;
 }
 
-.bi-facebook {
-    position: absolute;
-    margin-left: 10px;
-    margin-top: -10px;
-    color: gray;
-}
-
-
-.bi-twitter {
-    position: absolute;
-    margin-left: 30px;
-    margin-top: -10px;
-    color: gray;
-}
-
-.bi-linkedin {
-    position: absolute;
-    margin-left: 50px;
-    margin-top: -10px;
-    color: gray;
-}
-
-.bi-search {
-    position: absolute;
-    margin-left: -10px;
-    margin-top: 29px;
-}
-
-.touch .menuPort nav>ul>li.menu-item-has-children>.subToggler {
-    display: none;
-}
-
-.topBar .widget_search button,
-.topBarInMenu .widget_search button {
-    display: block;
-    top: -161%;
-}
-
 .menuHolder .logo img {
     height: 98px;
     width: 283px;
@@ -63,6 +24,43 @@
 
 
 /* ********** nav css ************** */
+
+/* ******** TIME Chat Css *********** */
+.btWorkingHoursInnerLink a:after {
+    display: none;
+}
+
+#bi-stopwatch .bi-stopwatch{
+    margin-left: -20px;
+}
+
+
+#Smile_img,
+#ARRIVE_img,
+#ARRANGE_img,
+#TIME_img{
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+.Smile,
+.ARRIVE,
+.ARRANGE,
+.TIME{
+    position: absolute;
+    background-color: #007ac6;
+    margin-left: -90px;
+    border-radius: 90px;
+    height: 80px;
+    width: 80px;
+}
+/* ******** TIME Chat Css *********** */
+
+
+ /* ********** Map address Call chat css *********** */
 
 iframe{
     height: 700px;
@@ -83,123 +81,18 @@ iframe{
 }
 
 
-
-/* **************** */
-
-.Smile,
-.ARRIVE,
-.ARRANGE,
-.TIME{
-    position: absolute;
-    background-color: #007ac6;
-    margin-left: -90px;
-    border-radius: 90px;
-    height: 80px;
-    width: 80px;
-    
-}
+ /* ********** address Call chat css *********** */
 
 
 
-#Smile_img,
-#ARRIVE_img,
-#ARRANGE_img,
-#TIME_img{
-    height: 50px;
-    width: 50px;
-    margin-left: 15px;
-    margin-top: 15px;
-}
 
-
-
-/* ***************  footer Css ********************** */
-
-.btImage img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-left: 22px;
+/* ******** footer css *********** */
+.btImage #Last_Logo {
     width: 41%;
 }
 
-#fb-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
-
-#tw-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
+/* ******** footer css *********** */
 
 
-#Li-last {
-    color: #007ac6;
-    margin-left: -10px;
-    margin-top: 3px;
-}
-
-.Dentist_round {
-    position: absolute;
-    background-color: #007ac6;
-    width: 80px;
-    height: 80px;
-    border-radius: 60px;
-    margin-top: -40px;
-    transition: 0.55s;
-}
 
 
-#fb {
-    position: absolute;
-    margin-left: -22px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#tw {
-    margin-left: -32px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#Go {
-    margin-left: -23px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#tw1 {
-    margin-left: -22px;
-    margin-top: 7px;
-    color: #ffffff;
-}
-
-#fb1 {
-    position: absolute;
-    margin-left: -30px;
-    margin-top: 0px;
-    color: #fff;
-}
-
-#fb1:hover,
-#TW2:hover,
-#go1:hover {
-    color: #007ac6;
-}
-
-#go1 {
-    margin-left: 30px;
-    margin-top: 0px;
-    color: #fff;
-}
-
-#TW2 {
-    margin-left: 0px;
-    margin-top: 0px;
-    color: #fff;
-}
-/* ***************  footer Css ********************** */
