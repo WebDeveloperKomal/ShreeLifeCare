@@ -2,6 +2,7 @@
 <html lang="en-US" data-bt-theme="Medicare 2.0.0">
 
 <head>
+	<script src="index.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="mobile-web-app-capable" content="yes">
@@ -2171,196 +2172,201 @@
 	class="page-template-default page page-id-306 page-child parent-pageid-6 theme-medicare bt_bb_plugin_active bt_bb_fe_preview_toggle woocommerce-no-js bodyPreloader btMenuRightEnabled btStickyEnabled btLightSkin btMenuGutter btCapitalizeMainMenuItems btHardRoundedButtons btNoSidebar"
 	data-autoplay="0" id="btBody">
 	<div class="btPageWrap" id="top">
+
+		<!-- **************************** NavBar  **************************** -->
 		<header class="mainHeader btClear">
-            <div class="topBar btClear">
-                <div class="topBarPort btClear">
-                    <div class="topTools btTopToolsLeft btTextLeft"><span class="btIconWidget ">
+			<div class="topBar btClear">
+				<div class="topBarPort btClear">
+					<div class="topTools btTopToolsLeft btTextLeft"><span class="btIconWidget ">
 
-                            <i class="bi bi-stopwatch-fill"></i>
+							<i class="bi bi-stopwatch-fill"></i>
 
-                            <span class="btIconWidgetIcon"><span class="btIco "><span data-ico-s7=""
-                                        class="btIcoHolder"><em></em></span></span></span><span
-                                class="btIconWidgetContent"><span class="btIconWidgetTitle">MON-FRI</span>
+							<span class="btIconWidgetIcon"><span class="btIco "><span data-ico-s7=""
+										class="btIcoHolder"><em></em></span></span></span><span
+								class="btIconWidgetContent"><span class="btIconWidgetTitle">OPD TIMING:  MON-FRI</span>
 
-                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="currentColor"
-                                    class="bi bi-stopwatch" viewBox="0 0 16 16">
-                                    <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z" />
-                                    <path
-                                        d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z" />
-                                </svg>
-                                <span class="btIconWidgetText">8AM - 7PM</span></span></span><a
-                            href="tel:+91-98-513-513-98" target="" class="btIconWidget "><span
-                                class="btIconWidgetIcon"><span class="btIco ">
-                                    <span data-ico-s7="" class="btIcoHolder"><em></em></span></span></span>
-                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="currentColor"
-                                class="bi bi-phone-vibrate" viewBox="0 0 16 16">
-                                <path
-                                    d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z" />
-                                <path
-                                    d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z" />
-                            </svg><span class="btIconWidgetContent"><span class="btIconWidgetTitle">CALL US</span><span
-                                    class="btIconWidgetText">+91-98-513-513-98</span></span></a></div>
+								<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="currentColor"
+									class="bi bi-stopwatch" viewBox="0 0 16 16">
+									<path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5V5.6z" />
+									<path
+										d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64a.715.715 0 0 1 .012-.013l.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354a.512.512 0 0 1-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5zM8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3z" />
+								</svg>
+								<span class="btIconWidgetText">11:00 AM to 03:00 PM - 05:00 PM 08:00 PM //   SAT-SUN:11:00 AM TO 01:00 PM
+								</span></span></span><a href="tel:+91-98-513-513-98" target=""
+							class="btIconWidget "><span class="btIconWidgetIcon"><span class="btIco ">
+									<span data-ico-s7="" class="btIcoHolder"><em></em></span></span></span>
+							<svg xmlns="http://www.w3.org/2000/svg" width="15" height="13" fill="currentColor"
+								class="bi bi-phone-vibrate" viewBox="0 0 16 16">
+								<path
+									d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z" />
+								<path
+									d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z" />
+							</svg><span class="btIconWidgetContent"><span class="btIconWidgetTitle">CALL FOR APPOINTMENT</span><span
+									class="btIconWidgetText">+91-98-513-513-98/+91-90-3846-3846</span></span></a></div>
 
-                    <div class="topTools btTopToolsRight btTextRight">
-                        <div class="btTopBox widget_search">
-                            <div class="btSearch">
-                                <div class="btSearchInner" role="search">
-                                    <div class="btSearchInnerContent">
-                                        <form action="" method="get"><input type="text" name="s"
-                                                placeholder="Looking for..." class="untouched"><button type="submit"
-                                                data-icon="&#xf105;"></button></form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div><a href="http://www.facebook.com" target="_blank"
-                            class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                    class="btIco "><span data-ico-fa="&#xf09a;"
-                                        class="btIcoHolder"><em></em></span></span></span></a><a
-                            href="http://www.twitter.com" target="_blank"
-                            class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                    class="btIco "><span data-ico-fa="&#xf099;"
-                                        class="btIcoHolder"><em></em></span></span></span></a><a
-                            href="http://www.linkedin.com" target="_blank"
-                            class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                    class="btIco "><span data-ico-fa="&#xf0e1;"
-                                        class="btIcoHolder"><em></em></span></span></span></a>
-                    </div>
+					<div class="topTools btTopToolsRight btTextRight">
+						<div class="btTopBox widget_search">
+							<div class="btSearch">
+								<div class="btSearchInner" role="search">
+									<div class="btSearchInnerContent">
+										<form action="" method="get"><input type="text" name="s"
+												placeholder="Looking for..." class="untouched"><button type="submit"
+												data-icon="&#xf105;"></button></form>
+									</div>
+								</div>
+							</div>
+						</div>
 
-                </div>
+						<a href="https://www.facebook.com/shreelifecare.org" target="_blank"
+							class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+									class="btIco "><span data-ico-fa="&#xf09a;"
+										class="btIcoHolder"><em></em></span></span></span></a><a
+							href="https://www.youtube.com/channel/UC2XIS3yxKFN9UDxiJNeqd9w" target="_blank"
+							class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+									class="btIco "><span data-ico-fa="&#xf16a;"
+										class="btIcoHolder"><em></em></span></span></span></a><a
+							href="https://www.instagram.com/shree.life.care/" target="_blank"
+							class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+									class="btIco "><span data-ico-fa="&#xf16d;"
+										class="btIcoHolder"><em></em></span></span></span></a>
+					</div>
+				</div>
+			</div>
 
-            </div>
+			<div class="port">
+				<div class="menuHolder btClear"><span class="btVerticalMenuTrigger">&nbsp;
+						<span class="btIco btIcoSmallSize btIcoDefaultColor btIcoDefaultType"><a href="#" data-ico-fa=""
+								class="btIcoHolder"><em>menu
+									trigger</em></a></span></span><span class="btHorizontalMenuTrigger">&nbsp;
+						<span class="btIco btIcoSmallSize btIcoDefaultColor btIcoDefaultType"><a href="#" data-ico-fa=""
+								class="btIcoHolder"><em>menu
+									trigger</em></a></span></span>
+					<div class="logo"><span><a href="index.html"><img class="btMainLogo" data-hw="3.7818181818182"
+									src="logo-05.png" alt="General Hospital"><img class="btAltLogo"
+									src="http://medicare.bold-themes.com/general-hospital/wp-content/uploads/sites/14/2018/03/general-hospital-logo-white.png"
+									alt="General Hospital"></a></span></div>
 
-            <div class="port">
-                <div class="menuHolder btClear"><span class="btVerticalMenuTrigger">&nbsp;
-                        <span class="btIco btIcoSmallSize btIcoDefaultColor btIcoDefaultType"><a href="#" data-ico-fa=""
-                                class="btIcoHolder"><em>menu
-                                    trigger</em></a></span></span><span class="btHorizontalMenuTrigger">&nbsp;
-                        <span class="btIco btIcoSmallSize btIcoDefaultColor btIcoDefaultType"><a href="#" data-ico-fa=""
-                                class="btIcoHolder"><em>menu
-                                    trigger</em></a></span></span>
-                    <div class="logo"><span><a href=""><img class="btMainLogo" data-hw="3.7818181818182"
-                                    src="logo-05.png" alt="General Hospital"><img class="btAltLogo"
-                                    src="http://medicare.bold-themes.com/general-hospital/wp-content/uploads/sites/14/2018/03/general-hospital-logo-white.png"
-                                    alt="General Hospital"></a></span></div>
+					<div class="menuPort">
+						<nav>
+							<ul id="menu-main-menu" class="menu">
+								<li id="menu-item-1421"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
+									<a href="index.html">Home</a>
+								</li>
+								<li id="menu-item-1398"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1398">
+									<a href="AboutUs.html">About
+										us</a>
+									<ul class="sub-menu">
+										<li id="menu-item-1399"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399">
+											<a href="AboutUs.html">Overview</a>
+										</li>
+										<li id="menu-item-1385"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1385">
+											<a href="Team.html">Team</a>
+										</li>
 
-                    <div class="menuPort">
-                        <nav>
-                            <ul id="menu-main-menu" class="menu">
-                                <li id="menu-item-1421"
-                                    class="btHidden menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-983 current_page_item menu-item-1421">
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li id="menu-item-1398"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1398">
-                                    <a href="AboutUs.html">About
-                                        us</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-1399"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399">
-                                            <a href="AboutUs.html">Information</a>
-                                        </li>
-                                        <li id="menu-item-1385"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1385">
-                                            <a href="Team.html">Team</a>
-                                        </li>
+										<li id="menu-item-1386"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
+											<a href="Doctors_profile.html">founder's Profile</a>
+										</li>
 
-                                        <li id="menu-item-1386"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
-                                            <a href="Working_hours.html">Working
-                                                hours</a>
-                                        </li>
-                                        <li id="menu-item-1381"
+										<li id="menu-item-1386"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
+											<a href="Working_hours.html">Working
+												hours</a>
+										</li>
+										<!-- <li id="menu-item-1381"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1381">
                                             <a href="Appointments.html">Appointments</a>
                                         </li>
                                         <li id="menu-item-1382"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1382">
                                             <a href="Contact-us.html">Contact</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1624"
-                                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1624">
-                                    <a href="#">
-										Resource</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-1388"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
-                                            <a href="services.html">Services</a>
-                                        </li>
-                                        <li id="menu-item-1390"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1390">
-                                            <a href="Departments.html">Departments</a>
-                                        </li>
-                                        <li id="menu-item-1586"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586">
-                                            <a href="Location .html">Location</a>
-                                        </li>
-                                        <li id="menu-item-1389"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1389">
-                                            <a href="Cost-calculator.html">Cost
-                                                calculator</a>
-                                        </li>
-                                        <li id="menu-item-1391"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391">
-                                            <a href="FAQ.html">FAQ</a>
-                                        </li>
-                                        <li id="menu-item-1394"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394">
-                                            <a href="Testimonials.html">Testimonials</a>
-                                        </li>
-                                        <li id="menu-item-1393"
+                                        </li> -->
+									</ul>
+								</li>
+								<li id="menu-item-1624"
+									class="btHidden menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-983 current_page_item menu-item-1421">
+									<a href="#">
+										Specialties & Services</a>
+									<ul class="sub-menu">
+										<li id="menu-item-1388"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
+											<a href="services.html">Services</a>
+										</li>
+										<li id="menu-item-1390"
+											class="btHidden menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-983 current_page_item menu-item-1421">
+											<a href="Departments.html">Departments</a>
+										</li>
+										<li id="menu-item-1586"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586">
+											<a href="Location .html">Location</a>
+										</li>
+
+										<li id="menu-item-1391"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391">
+											<a href="FAQ.html">FAQ</a>
+										</li>
+										<li id="menu-item-1394"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394">
+											<a href="Testimonials.html">Testimonials</a>
+										</li>
+										<!-- <li id="menu-item-1393"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
                                             <a href="Pricing.html">Pricing</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li id="menu-item-1409"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409">
-                                    <a href="Classic-list.html">Latest
-                                        news</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-1387"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
-                                            <a href="Classic-list.html">Classic
-                                                list</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                        </li> -->
+									</ul>
+								</li>
+								<li id="menu-item-1409"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409">
+									<a href="Classic-list.html">Blogs</a>
+									<!-- <ul class="sub-menu">
+										<li id="menu-item-1387"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
+											<a href="Classic-list.html">Classic
+												list</a>
+										</li>
 
-                                <li id="menu-item-1395"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1395">
-                                    <a href="Doctors_profile.html">Doctors
-                                        profile</a>
-                                    <ul class="sub-menu">
-                                        <li id="menu-item-1408"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1408">
-                                            <a href="Dr-yogesh-Lade.html">Dr.Yogesh Lade</a>
-                                        </li>
-                                        <li id="menu-item-1405"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1405">
-                                            <a href="Dr-Mayur-Tirmakhe.html">Dr. Mayur Tirmakhe</a>
-                                        </li>
-                                        <li id="menu-item-1406"
+									</ul> -->
+								</li>
+
+								<li id="menu-item-1395"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1395">
+									<a href="#">Contact</a>
+									<ul class="sub-menu">
+										<li id="menu-item-1381"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1381">
+											<a href="Appointments.html">Appointments</a>
+										</li>
+										<li id="menu-item-1382"
+											class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1382">
+											<a href="Contact-us.html">Contact</a>
+										</li>
+										<!-- <li id="menu-item-1406"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1406">
                                             <a href="Dr-Asmita-Lade.html">Dr. Asmita Lade</a>
                                         </li>
                                         <li id="menu-item-1407"
                                             class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1407">
                                             <a href="Dr-Astha-Tirmakhe.html">Dr. Astha Tirmakhe</a>
-                                        </li>
-                                    </ul>
-                                </li>
+                                        </li> -->
+									</ul>
+								</li>
 
-                            </ul>
-                        </nav>
-                    </div>
+							</ul>
+						</nav>
+					</div>
 
-                </div>
+				</div>
 
-            </div>
+			</div>
 
-        </header>
+		</header>
+
+		<!-- **************************** NavBar End **************************** -->
+
 		<!-- /.mainHeader -->
 		<div class="btContentWrap btClear">
 			<div class="btContentHolder">
@@ -2431,8 +2437,8 @@
 															<div class="boldPhotoBox">
 																<div class="bpbItem">
 																	<div class="btImage"><img
-																			src="websites icons 24-24.jpg"
-																			alt="" title=""></div>
+																			src=" websites icons 19-24 (3).png" alt=""
+																			title=""></div>
 																</div>
 															</div>
 															<div class="captionPane">
@@ -2455,8 +2461,8 @@
 														<header
 															class="header btClear large btDash bottomDash  btAccentDash">
 															<div class="dash">
-																<h2><span class="headline">General health
-																		department</span></h2>
+																<h2><span class="headline">IVF & Infertility Department:
+																	</span></h2>
 															</div>
 														</header>
 														<div
@@ -2465,27 +2471,75 @@
 														</div>
 														<div class="btText">
 															<div class="btText">
-																<p>Credibly reintermediate backend ideas for
-																	cross-platform models. Continually
-																	reintermediate integrated processes through
-																	technically sound intellectual capital.
-																	Holistically foster superior methodologies
-																	without market-driven best practices.</p>
-																<p>Distinctively exploit optimal alignments for
-																	intuitive bandwidth. Quickly coordinate
-																	e-business applications through
-																	revolutionary catalysts for change.
-																	Seamlessly underwhelm optimal testing
-																	procedures whereas bricks-and-clicks
-																	processes.</p>
+																<p>Our IVF and Infertility Department provides
+																	comprehensive and compassionate care for couples
+																	facing infertility challenges. With a team of
+																	experienced fertility specialists and advanced
+																	reproductive technologies, including IVF, IUI, and
+																	genetic testing. </p>
+																<p>Our dedicated support and commitment to your success
+																	make us a trusted destination for fertility
+																	treatments, guiding you on your journey to
+																	parenthood.
+																	<br> <br>
+																	<span id="dots"></span><span id="more">Our IVF and
+																		Infertility Department is dedicated to providing
+																		comprehensive and compassionate care for couples
+																		struggling with infertility. We understand the
+																		emotional and physical challenges that come with
+																		infertility, and our team of experienced
+																		fertility specialists is here to support you
+																		throughout your journey.
+																		<br><br>
+																		Our department offers a range of advanced
+																		reproductive technologies and treatments,
+																		including in vitro fertilization (IVF),
+																		intrauterine insemination (IUI), genetic
+																		testing, and fertility preservation. We work
+																		closely with you to understand your unique needs
+																		and develop personalized treatment plans that
+																		maximize your chances of success.
+																		<br><br>
+																		But it's not just about the technology – our
+																		team is committed to providing compassionate
+																		support and guidance throughout the entire
+																		process. We understand that fertility treatment
+																		can be emotionally challenging, and we create a
+																		nurturing and understanding environment where
+																		you feel heard, supported, and empowered to make
+																		informed decisions.
+																		<br><br>
+																		In addition to our fertility treatments, we also
+																		provide comprehensive diagnostic services to
+																		identify the underlying causes of infertility.
+																		Our advanced diagnostic techniques help us
+																		determine the most appropriate treatment options
+																		for you and address any potential obstacles to
+																		conception.
+																		<br><br>
+																		We are proud to have helped numerous couples
+																		fulfill their dreams of parenthood, and we are
+																		committed to being a trusted partner on your
+																		path to building a family. With our expertise,
+																		advanced technologies, and compassionate care,
+																		we are dedicated to increasing your chances of
+																		success and supporting you every step of the
+																		way.</span>
+																</p>
 															</div>
 														</div>
 														<div
 															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
 															<hr>
-														</div><a href="#"
+														</div>
+														<button id="myBtn"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction()" style="color: #fff;">Read
+															more</button>
+
+														<!-- <a href="#"
 															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
+																class="btnInnerText">READ MORE</span></a> -->
 													</div>
 												</div>
 											</div>
@@ -2513,8 +2567,8 @@
 															<div class="boldPhotoBox">
 																<div class="bpbItem">
 																	<div class="btImage"><img
-																			src="websites icons 19-20 (3).png"
-																			alt="" title=""></div>
+																			src="websites icons 19-21 (3).png" alt=""
+																			title=""></div>
 																</div>
 															</div>
 															<div class="captionPane">
@@ -2537,8 +2591,8 @@
 														<header
 															class="header btClear large btDash bottomDash  btAccentDash">
 															<div class="dash">
-																<h2><span class="headline">Dental
-																		department</span></h2>
+																<h2><span class="headline">Gynecology & Maternity
+																		Department: </span></h2>
 															</div>
 														</header>
 														<div
@@ -2547,27 +2601,84 @@
 														</div>
 														<div class="btText">
 															<div class="btText">
-																<p>Dynamically target high-payoff intellectual
-																	capital for customized technologies.
-																	Objectively integrate emerging core
-																	competencies before process-centric
-																	communities. Dramatically evisculate
-																	holistic innovation rather than
-																	client-centric data.</p>
-																<p>Progressively maintain extensive
-																	infomediaries via extensible niches.
-																	Dramatically disseminate standardized
-																	metrics after resource-leveling processes.
-																	Objectively pursue diverse catalysts for
-																	change for interoperable meta-services.</p>
+																<p>Experience exceptional gynecology and maternity care
+																	at Shree Life Care Hospital. Our team of dedicated
+																	gynecologists and obstetricians provides
+																	comprehensive services including routine exams,
+																	prenatal care, high-risk pregnancy management,
+																	childbirth support, and reproductive health
+																	guidance. Trust our expertise and compassionate
+																	approach to empower you in every stage of your
+																	reproductive health journey
+																	<br> <br>
+																	<span id="dots1"></span><span id="more1">Our
+																		Gynecology & Maternity department offers
+																		comprehensive and personalized care for women of
+																		all ages, addressing their unique reproductive
+																		health needs. Our team of experienced
+																		gynecologists and obstetricians is committed to
+																		providing exceptional care throughout every
+																		stage of a woman's life.
+
+
+																		<br><br>
+																		In our gynecology services, we offer a wide
+																		range of care, including routine gynecological
+																		exams, family planning, contraception
+																		counseling, management of reproductive health
+																		concerns, and treatment of gynecological
+																		conditions. Our specialists prioritize open and
+																		honest communication, creating a safe and
+																		comfortable environment where you can discuss
+																		your concerns and receive individualized care.
+																		<br><br>
+																		For expectant mothers, our maternity care
+																		services encompass preconception counseling,
+																		prenatal care, high-risk pregnancy management,
+																		and childbirth support. We understand that every
+																		pregnancy is unique, and our team works closely
+																		with you to ensure the health and well-being of
+																		both you and your baby. From monitoring fetal
+																		development to providing guidance on nutrition
+																		and lifestyle choices, our goal is to support
+																		you in having a safe and memorable maternity
+																		experience.
+																		<br><br>
+																		We also provide comprehensive reproductive
+																		health guidance, including counseling on
+																		fertility, family planning options, and
+																		assistance in managing conditions such as
+																		polycystic ovary syndrome (PCOS) and
+																		endometriosis. Our aim is to empower you with
+																		the knowledge and resources needed to make
+																		informed decisions about your reproductive
+																		health.
+																		<br><br>
+																		With our patient-centered approach and
+																		commitment to excellence, you can trust us to
+																		provide exceptional gynecological and maternity
+																		care that is tailored to your unique needs. We
+																		are here to support you in every step of your
+																		reproductive health journey, helping you achieve
+																		optimal health, wellness, and a positive overall
+																		experience.</span>
+																</p>
 															</div>
 														</div>
 														<div
 															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
 															<hr>
+														</div>
+														<button id="myBtn1"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction1()" style="color: #fff;">Read
+															more</button>
+														<!-- <div
+															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
+															<hr>
 														</div><a href="#"
 															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
+																class="btnInnerText">READ MORE</span></a> -->
 													</div>
 												</div>
 											</div>
@@ -2595,8 +2706,8 @@
 															<div class="boldPhotoBox">
 																<div class="bpbItem">
 																	<div class="btImage"><img
-																			src="websites icons 19-23 (3).png"
-																			alt="" title=""></div>
+																			src="websites icons 19-23 (3).png" alt=""
+																			title=""></div>
 																</div>
 															</div>
 															<div class="captionPane">
@@ -2629,26 +2740,70 @@
 														</div>
 														<div class="btText">
 															<div class="btText">
-																<p>Proactively fabricate one-to-one materials
-																	via effective e-business. Completely
-																	synergize scalable e-commerce rather than
-																	high standards in e-services. Assertively
-																	iterate resource maximizing products after
-																	leading-edge intellectual capital.</p>
-																<p>Distinctively re-engineer revolutionary
-																	meta-services and premium architectures.
-																	Intrinsically incubate intuitive
-																	opportunities and real-time potentialities.
-																	Appropriately communicate one-to-one
-																	technology after plug-and-play networks.</p>
+																<p>Our Pediatrics department is dedicated to providing
+																	exceptional medical care for infants, children, and
+																	adolescents. Our team of experienced pediatricians
+																	offers a comprehensive range of services, including
+																	well-child check-ups, immunizations, developmental
+																	screenings, acute illness management, and chronic
+																	disease management. </p>
+																<p>With a child-friendly environment and a focus on
+																	preventive care, we prioritize your child's health
+																	and well-being, ensuring they receive the highest
+																	standard of medical attention for their overall
+																	growth and development.
+																	<br> <br>
+																	<span id="dots2"></span><span id="more2">Shree Life
+																		Care Hospital takes pride in our Pediatrics
+																		department, where we provide exceptional medical
+																		care for infants, children, and
+																		adolescents.<br><br>
+																		We offer a comprehensive range of pediatric
+																		services to address all aspects of your child's
+																		health. This includes well-child check-ups,
+																		where we monitor growth and development, conduct
+																		age-appropriate screenings, and provide
+																		immunizations to protect against preventable
+																		diseases. Our pediatricians also offer guidance
+																		on nutrition, behavior, and overall wellness to
+																		ensure your child's optimal health.<br><br>
+																		In addition, we provide acute illness management
+																		for common childhood ailments such as
+																		infections, respiratory issues, and injuries.
+																		Our pediatricians are skilled in diagnosing and
+																		treating these conditions, providing prompt and
+																		effective care to help your child
+																		recover.<br><br>
+																		For children with chronic diseases or
+																		conditions, our pediatricians work closely with
+																		you and your child to develop personalized
+																		management plans. We provide ongoing support,
+																		monitoring, and treatment to help your child
+																		lead a healthy and fulfilling life.<br><br>
+																		Preventive care is a cornerstone of our
+																		pediatric services. We emphasize the importance
+																		of regular check-ups, vaccinations, and
+																		screenings to detect and prevent potential
+																		health issues. By focusing on preventive
+																		measures, we aim to promote long-term health and
+																		well-being for your child.</span>
+																</p>
 															</div>
 														</div>
 														<div
 															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
 															<hr>
+														</div>
+														<button id="myBtn2"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction2()" style="color: #fff;">Read
+															more</button>
+														<!-- <div
+															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
+															<hr>
 														</div><a href="#"
 															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
+																class="btnInnerText">READ MORE</span></a> -->
 													</div>
 												</div>
 											</div>
@@ -2676,8 +2831,8 @@
 															<div class="boldPhotoBox">
 																<div class="bpbItem">
 																	<div class="btImage"><img
-																			src="websites icons 19-22 (3).png"
-																			alt="" title=""></div>
+																			src="websites icons 19-20 (3).png" alt=""
+																			title=""></div>
 																</div>
 															</div>
 															<div class="captionPane">
@@ -2700,88 +2855,7 @@
 														<header
 															class="header btClear large btDash bottomDash  btAccentDash">
 															<div class="dash">
-																<h2><span class="headline">Orthopedics
-																		department</span></h2>
-															</div>
-														</header>
-														<div
-															class="btClear btSeparator bottomExtraSmallSpaced noBorder">
-															<hr>
-														</div>
-														<div class="btText">
-															<div class="btText">
-																<p>Enthusiastically mesh long-term high-impact
-																	infrastructures vis-a-vis efficient customer
-																	service. Professionally fashion wireless
-																	leadership rather than prospective
-																	experiences. Energistically myocardinate
-																	clicks-and-mortar testing procedures.</p>
-																<p>Dynamically reinvent market-driven
-																	opportunities and ubiquitous interfaces.
-																	Energistically fabricate an expanded array
-																	of niche markets through robust products.
-																	Appropriately implement visionary e-services
-																	vis-a-vis strategic web-readiness.</p>
-															</div>
-														</div>
-														<div
-															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
-															<hr>
-														</div><a href="#"
-															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="boldRow  ">
-											<div class="boldRowInner">
-												<div
-													class="rowItem col-md-12 col-ms-12  btTextLeft animate animate-fadein inherit">
-													<div class="rowItemContent">
-														<div
-															class="btClear btSeparator topSemiSpaced bottomSemiSpaced border">
-															<hr>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="boldRow  ">
-											<div class="boldRowInner">
-												<div
-													class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical">
-													<div class="rowItemContent">
-														<div class="bpgPhoto btTextCenter"><a href="#" target="_self"
-																title=""></a>
-															<div class="boldPhotoBox">
-																<div class="bpbItem">
-																	<div class="btImage"><img
-																			src="websites icons 19-24 (3).png"
-																			alt="" title=""></div>
-																</div>
-															</div>
-															<div class="captionPane">
-																<div class="captionTable">
-																	<div class="captionCell">
-																		<div class=""></div>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div
-															class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
-															<hr>
-														</div>
-													</div>
-												</div>
-												<div
-													class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical btDoublePadding">
-													<div class="rowItemContent">
-														<header
-															class="header btClear large btDash bottomDash  btAccentDash">
-															<div class="dash">
-																<h2><span class="headline">Laboratory</span>
+																<h2><span class="headline">Dentistry Department:</span>
 																</h2>
 															</div>
 														</header>
@@ -2791,26 +2865,70 @@
 														</div>
 														<div class="btText">
 															<div class="btText">
-																<p>Enthusiastically mesh long-term high-impact
-																	infrastructures vis-a-vis efficient customer
-																	service. Professionally fashion wireless
-																	leadership rather than prospective
-																	experiences. Energistically myocardinate
-																	clicks-and-mortar testing procedures.</p>
-																<p>Dynamically reinvent market-driven
-																	opportunities and ubiquitous interfaces.
-																	Energistically fabricate an expanded array
-																	of niche markets through robust products.
-																	Appropriately implement visionary e-services
-																	vis-a-vis strategic web-readiness.</p>
+																<p>Our dentistry department offers comprehensive oral
+																	healthcare services for patients of all ages. From
+																	routine check-ups and cleanings to restorative
+																	treatments and cosmetic procedures, our experienced
+																	dentists provide personalized and quality care to
+																	ensure optimal oral health and a confident smile.
+																	Trust our expertise and commitment to delivering
+																	exceptional dental care tailored to your unique
+																	needs.
+																	<br> <br>
+																	<span id="dots3"></span><span id="more3">Our
+																		Dentistry department is dedicated to providing
+																		comprehensive oral healthcare services tailored
+																		to the specific needs of each patient. <br><br>
+																		Our range of services includes routine check-ups
+																		and cleanings, during which our skilled dental
+																		professionals perform thorough examinations,
+																		cleanings, and screenings for oral health
+																		conditions. We emphasize the importance of
+																		regular dental visits to maintain optimal oral
+																		hygiene and prevent potential issues.<br><br>
+																		In addition to preventive care, our dentists
+																		specialize in restorative treatments, such as
+																		fillings, crowns, and bridges, to repair damaged
+																		teeth and restore their functionality. We
+																		utilize the latest advancements in dental
+																		materials and techniques to provide durable and
+																		natural-looking restorations, ensuring
+																		long-lasting oral health.<br><br>
+																		We also offer cosmetic dentistry services to
+																		enhance the appearance of your smile. Our
+																		cosmetic treatments include teeth whitening,
+																		veneers, and orthodontic options like clear
+																		aligners. We take pride in helping our patients
+																		achieve their desired smile aesthetics, boosting
+																		their self-confidence and overall
+																		satisfaction.<br><br>
+																		Patient comfort is of utmost importance to us,
+																		and we strive to create a relaxed and welcoming
+																		environment. Our dental team understands dental
+																		anxiety and works closely with patients to
+																		alleviate any concerns, ensuring a positive
+																		experience throughout their visit. <br><br>
+																		Trust our experienced dentists and
+																		state-of-the-art facilities to deliver
+																		exceptional dental care tailored to your unique
+																		needs. Your oral health and satisfaction are our
+																		top priorities, and we are committed to helping
+																		you achieve and maintain a healthy, beautiful
+																		smile. </span>
+																</p>
 															</div>
 														</div>
 														<div
 															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
 															<hr>
-														</div><a href="#"
+														</div>
+														<button id="myBtn3"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction3()" style="color: #fff;">Read
+															more</button>
+														<!-- <a href="#"
 															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
+																class="btnInnerText">READ MORE</span></a> -->
 													</div>
 												</div>
 											</div>
@@ -2838,8 +2956,8 @@
 															<div class="boldPhotoBox">
 																<div class="bpbItem">
 																	<div class="btImage"><img
-																			src="websites icons 19-21 (3).png"
-																			alt="" title=""></div>
+																			src="websites icons 19-22 (3).png" alt=""
+																			title=""></div>
 																</div>
 															</div>
 															<div class="captionPane">
@@ -2862,8 +2980,9 @@
 														<header
 															class="header btClear large btDash bottomDash  btAccentDash">
 															<div class="dash">
-																<h2><span class="headline">Screening
-																		department</span></h2>
+																<h2><span class="headline">Orthopedics Department:
+																	</span>
+																</h2>
 															</div>
 														</header>
 														<div
@@ -2872,26 +2991,199 @@
 														</div>
 														<div class="btText">
 															<div class="btText">
-																<p>Enthusiastically mesh long-term high-impact
-																	infrastructures vis-a-vis efficient customer
-																	service. Professionally fashion wireless
-																	leadership rather than prospective
-																	experiences. Energistically myocardinate
-																	clicks-and-mortar testing procedures.</p>
-																<p>Dynamically reinvent market-driven
-																	opportunities and ubiquitous interfaces.
-																	Energistically fabricate an expanded array
-																	of niche markets through robust products.
-																	Appropriately implement visionary e-services
-																	vis-a-vis strategic web-readiness.</p>
+																<p>Our department specializes in comprehensive
+																	orthopedic care, providing expert diagnosis,
+																	treatment, and management of musculoskeletal
+																	conditions. Our skilled orthopedic surgeons and
+																	specialists offer a wide range of services,
+																	including advanced surgical interventions,
+																	non-surgical treatments, and rehabilitation
+																	programs, all aimed at restoring mobility, relieving
+																	pain, and improving the overall quality of life for
+																	our patients. </p>
+																<p>Trust our expertise and commitment to delivering
+																	personalized orthopedic care tailored to your
+																	specific needs.
+																	<br> <br>
+																	<span id="dots4"></span><span id="more4">Our
+																		Orthopedics department is dedicated to providing
+																		comprehensive and specialized care for a wide
+																		range of musculoskeletal conditions. <br><br>
+																		We offer advanced diagnostic services to
+																		accurately identify the underlying causes of
+																		musculoskeletal issues, using state-of-the-art
+																		imaging technology and specialized tests. Our
+																		expert orthopedic surgeons are proficient in
+																		performing both minimally invasive and complex
+																		surgical procedures, including joint
+																		replacements, arthroscopic surgeries, fracture
+																		repairs, and spinal surgeries. With a focus on
+																		precision and patient safety, our surgical
+																		interventions aim to restore mobility, alleviate
+																		pain, and enhance overall function.<br><br>
+																		In addition to surgical treatments, our
+																		department provides a comprehensive range of
+																		non-surgical interventions. This includes the
+																		use of cutting-edge techniques such as
+																		regenerative medicine, physical therapy, pain
+																		management, and orthotic devices. Our
+																		multidisciplinary approach ensures that patients
+																		receive the most appropriate and effective
+																		treatments, tailored to their individual
+																		needs.<br><br>
+																		Rehabilitation plays a crucial role in the
+																		recovery process, and our dedicated team of
+																		physical therapists and rehabilitation
+																		specialists work closely with patients to design
+																		personalized therapy programs. These programs
+																		focus on improving strength, flexibility, and
+																		function, enabling patients to regain their
+																		mobility and return to their daily activities as
+																		quickly as possible.
+																		<br><br>
+																	</span>
+																</p>
 															</div>
 														</div>
 														<div
 															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
 															<hr>
-														</div><a href="#"
+														</div>
+														<button id="myBtn4"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction4()" style="color: #fff;">Read
+															more</button>
+														<!-- <a href="#"
 															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
-																class="btnInnerText">READ MORE</span></a>
+																class="btnInnerText">READ MORE</span></a> -->
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="boldRow  ">
+											<div class="boldRowInner">
+												<div
+													class="rowItem col-md-12 col-ms-12  btTextLeft animate animate-fadein inherit">
+													<div class="rowItemContent">
+														<div
+															class="btClear btSeparator topSemiSpaced bottomSemiSpaced border">
+															<hr>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="boldRow  ">
+											<div class="boldRowInner">
+												<div
+													class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical">
+													<div class="rowItemContent">
+														<div class="bpgPhoto btTextCenter"><a href="#" target="_self"
+																title=""></a>
+															<div class="boldPhotoBox">
+																<div class="bpbItem">
+																	<div class="btImage"><img
+																			src="websites icons 19-19 (3).png" alt=""
+																			title=""></div>
+																</div>
+															</div>
+															<div class="captionPane">
+																<div class="captionTable">
+																	<div class="captionCell">
+																		<div class=""></div>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<div
+															class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
+															<hr>
+														</div>
+													</div>
+												</div>
+												<div
+													class="rowItem col-md-6 col-sm-12 btTextLeft animate animate-fadein btMiddleVertical btDoublePadding">
+													<div class="rowItemContent">
+														<header
+															class="header btClear large btDash bottomDash  btAccentDash">
+															<div class="dash">
+																<h2><span class="headline">General Health Department:
+																	</span></h2>
+															</div>
+														</header>
+														<div
+															class="btClear btSeparator bottomExtraSmallSpaced noBorder">
+															<hr>
+														</div>
+														<div class="btText">
+															<div class="btText">
+																<p>Our General Health Department at Shree Life Care
+																	Hospital offers comprehensive healthcare services to
+																	promote overall well-being. With a focus on
+																	preventive care, routine check-ups, diagnostic
+																	screenings, and personalized treatment plans, our
+																	dedicated team of healthcare professionals is
+																	committed to keeping you in optimal health.
+																	<br> <br>
+																	<span id="dots5"></span><span id="more5">Our General
+																		Health Department is dedicated to providing
+																		comprehensive healthcare services that encompass
+																		all aspects of your well-being. <br><br>
+																		We prioritize preventive care, recognizing the
+																		importance of early detection and intervention.
+																		Through routine check-ups and health screenings,
+																		we assess your overall health status, identify
+																		potential risk factors, and provide guidance on
+																		maintaining a healthy lifestyle.
+																		<br><br>
+																		We offer vaccinations, immunizations, and health
+																		education to prevent common illnesses and
+																		promote long-term well-being.
+																		<br><br>
+																		Our department offers diagnostic services to
+																		help identify and manage various health
+																		conditions. From laboratory tests and imaging
+																		studies to specialized diagnostic procedures, we
+																		utilize advanced technologies and techniques to
+																		provide accurate and timely results, aiding in
+																		early detection and effective treatment
+																		planning.
+
+																		<br><br>
+																		In addition to preventive and diagnostic care,
+																		our General Health Department provides
+																		personalized treatment plans for a wide range of
+																		common illnesses and health concerns. Our team
+																		of dedicated physicians and specialists work
+																		collaboratively to develop comprehensive and
+																		tailored treatment strategies that address your
+																		specific needs, ensuring the best possible
+																		outcomes.
+																		<br><br>
+																		We understand that healthcare is not solely
+																		about physical well-being, but also encompasses
+																		emotional and mental health. Our healthcare
+																		professionals are trained to address your
+																		holistic health needs, providing guidance and
+																		support for mental well-being, stress
+																		management, and lifestyle modifications.</span>
+																</p>
+															</div>
+														</div>
+														<div
+															class="btClear btSeparator topExtraSmallSpaced bottomSmallSpaced noBorder">
+															<hr>
+														</div>
+														<button id="myBtn5"
+															class="btnInnerText btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnIco"
+															onclick="myFunction5()" style="color: #fff;">Read
+															more</button>
+														<!-- 
+
+
+														<a href="#"
+															class="btBtn btBtn btnFilledStyle btnAccentColor btnSmall btnNormalWidth btnRightPosition btnNoIcon"><span
+																class="btnInnerText">READ MORE</span></a> -->
 													</div>
 												</div>
 											</div>
@@ -2901,544 +3193,663 @@
 							</div>
 						</section>
 						<section id="bt_section649931623c1fa" class="boldSection topSpaced bottomSpaced gutter inherit">
-                            <div class="port">
-                                <div class="boldCell">
-                                    <div class="boldCellInner">
-                                        <div class="boldRow  ">
-                                            <div class="boldRowInner">
-                                                <div
-                                                    class="rowItem col-md-8 col-ms-12 btTextLeft animate animate-fadein inherit">
-                                                    <div class="rowItemContent">
-                                                        <header
-                                                            class="header btClear extralarge btDash bottomDash  btAccentDash">
-                                                            <div class="btSuperTitle">Get the right Shree Life care</div>
-                                                            <div class="dash">
-                                                                <h1><span class="headline"><em>Book with</em> <b
-                                                                            class="animate">your doctor</b></span></h1>
-                                                            </div>
-                                                            <div class="btSubTitle">Some up and coming trends are
-                                                                healthcare consolidation for independent healthcare
-                                                                centers that see a cut in unforeseen payouts.</div>
-                                                        </header>
-                                                        <div class="btClear btSeparator bottomSemiSpaced noBorder">
-                                                            <hr>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="rowItem col-md-4 col-ms-12 btTextLeft">
-                                                    <div class="rowItemContent"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="boldRow  ">
-                                            <div class="boldRowInner">
-                                                <div
-                                                    class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit">
-                                                    <div class="rowItemContent">
-                                                        <div class="bpgPhoto btTextCenter">
-                                                            <div class="btImage"><img
-                                                                    src="Appointments_blur2.jpg"
-                                                                    alt="" title="" id="btImage"></div>
-                                                        </div>
-                                                        <div class="btClear btSeparator topSemiSpaced noBorder">
-                                                            <hr>
-                                                        </div>
-                                                        <div
-                                                            class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                            <div class="sIcon"><span
-                                                                    class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
-                                                                        data-ico-tc=""
-                                                                        class="btIcoHolder"><em></em></span>
-                                                                    
+							<div class="port">
+								<div class="boldCell">
+									<div class="boldCellInner">
+										<div class="boldRow  ">
+											<div class="boldRowInner">
+												<div
+													class="rowItem col-md-8 col-ms-12 btTextLeft animate animate-fadein inherit">
+													<div class="rowItemContent">
+														<header
+															class="header btClear extralarge btDash bottomDash  btAccentDash">
+															<div class="btSuperTitle">Get the right Shree Life care
+															</div>
+															<div class="dash">
+																<h1><span class="headline"><em>Book with</em> <b
+																			class="animate">your doctor</b></span></h1>
+															</div>
+															<div class="btSubTitle">Some up and coming trends are
+																healthcare consolidation for independent healthcare
+																centers that see a cut in unforeseen payouts.</div>
+														</header>
+														<div class="btClear btSeparator bottomSemiSpaced noBorder">
+															<hr>
+														</div>
+													</div>
+												</div>
+												<div class="rowItem col-md-4 col-ms-12 btTextLeft">
+													<div class="rowItemContent"></div>
+												</div>
+											</div>
+										</div>
+										<div class="boldRow  ">
+											<div class="boldRowInner">
+												<div
+													class="rowItem col-md-4 col-ms-12 btTextLeft animate animate-fadein inherit">
+													<div class="rowItemContent">
+														<div class="bpgPhoto btTextCenter">
+															<div class="btImage"><img src="website image 11.jpg" alt=""
+																	title="" id="btImage"></div>
+														</div>
+														<div class="btClear btSeparator topSemiSpaced noBorder">
+															<hr>
+														</div>
+														<a href="">
+															<div
+																class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
+																<div class="sIcon"><span
+																		class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
+																			data-ico-tc=""
+																			class="btIcoHolder"><em></em></span>
 
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                                    width="36" height="36"
-                                                                                    fill="currentColor" id="phone"
-                                                                                    class="bi bi-phone-vibrate"
-                                                                                    viewBox="0 0 16 16">
-                                                                                    <path
-                                                                                        d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z" />
-                                                                                    <path
-                                                                                        d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z" />
-                                                                                </svg>
-                                                                    
-                                                                    </span>
-                                                            </div>
-                                                            <div class="sTxt">
-                                                                <header class="header btClear small">
-                                                                    <div class="dash">
-                                                                        <h4><span class="headline">CALL US
-                                                                                ANYTIME</span></h4>
-                                                                    </div>
-                                                                </header>
-                                                                <p>+91-98-513-513-98</p>
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
-                                                            <hr>
-                                                        </div>
-                                                        <div
-                                                            class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                            <div class="sIcon"><span
-                                                                    class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
-                                                                        data-ico-hs=""
-                                                                        class="btIcoHolder"><em></em></span>
-                                                                    
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                        width="36" height="36"
-                                                                        fill="currentColor"
-                                                                        class="bi bi-geo-alt"
-                                                                        viewBox="0 0 16 16">
-                                                                        <path
-                                                                            d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
-                                                                        <path
-                                                                            d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                                                                    </svg>
-                                                                
 
-                                                                    
-                                                                    </span>
-                                                            </div>
-                                                            <div class="sTxt">
-                                                                <header class="header btClear small">
-                                                                    <div class="dash">
-                                                                        <h4><span class="headline">VISIT US
-                                                                                ANYTIME</span></h4>
-                                                                    </div>
-                                                                </header>
-                                                                <p>Shree Life Care Hospital & IVF Center
-                                                                    Near Bagul Towers, Opposite to Bus
-                                                                    Stand,
-                                                                    Kopargaon - 423601.
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
-                                                            <hr>
-                                                        </div>
-                                                        <div
-                                                            class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
-                                                            <div class="sIcon"><span
-                                                                    class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
-                                                                        data-ico-hs=""
-                                                                        class="btIcoHolder"><em></em>
-                                                                    
-                                                                        <svg xmlns="http://www.w3.org/2000/svg"
-                                                                        width="36" height="36"
-                                                                        fill="currentColor"
-                                                                        class="bi bi-heart-pulse"
-                                                                        viewBox="0 0 16 16">
-                                                                        <path
-                                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z" />
-                                                                        <path
-                                                                            d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z" />
-                                                                    </svg>
-                                                                    
-                                                                    
-                                                                    </span></span>
-                                                            </div>
-                                                            <div class="sTxt">
-                                                                <header class="header btClear small">
-                                                                    <div class="dash">
-                                                                        <h4><span class="headline">BOOK AN
-                                                                                APPOINTMENT</span></h4>
-                                                                    </div>
-                                                                </header>
-                                                                <p>Click here to book an appointment at Shree Life care.</p>
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
-                                                            <hr>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div
-                                                    class="rowItem col-md-8 col-ms-12 btTextLeft animate animate-fadein inherit btDoublePadding">
-                                                    <div class="rowItemContent">
-                                                        <div class="btText">
-                                                            <div class="wpcf7 no-js" id="wpcf7-f681-p298-o1"
-                                                                lang="en-US" dir="ltr">
-                                                                <div class="screen-reader-response">
-                                                                    <p role="status" aria-live="polite"
-                                                                        aria-atomic="true">
-                                                                    <ul></ul>
-                                                                </div>
-                                                                <form
-                                                                    action="/general-hospital/about-us/appointments/#wpcf7-f681-p298-o1"
-                                                                    method="post" class="wpcf7-form init"
-                                                                    aria-label="Contact form" novalidate="novalidate"
-                                                                    data-status="init">
-                                                                    <div style="display: none;">
-                                                                        <input type="hidden" name="_wpcf7"
-                                                                            value="681" /><br />
-                                                                        <input type="hidden" name="_wpcf7_version"
-                                                                            value="5.7.5.1" /><br />
-                                                                        <input type="hidden" name="_wpcf7_locale"
-                                                                            value="en_US" /><br />
-                                                                        <input type="hidden" name="_wpcf7_unit_tag"
-                                                                            value="wpcf7-f681-p298-o1" /><br />
-                                                                        <input type="hidden"
-                                                                            name="_wpcf7_container_post"
-                                                                            value="298" /><br />
-                                                                        <input type="hidden"
-                                                                            name="_wpcf7_posted_data_hash"
-                                                                            value="" /><br />
-                                                                        <input type="hidden"
-                                                                            name="_wpcf7_recaptcha_response" value="" />
-                                                                    </div>
-                                                                    <p><span class="bt_bb_required">Your
-                                                                            Name</span><br />
-                                                                        <span class="wpcf7-form-control-wrap"
-                                                                            data-name="your-name"><input size="40"
-                                                                                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false" value=""
-                                                                                type="text" name="your-name" /></span>
-                                                                    </p>
-                                                                    <p><span class="bt_bb_required">Your
-                                                                            Email</span><br />
-                                                                        <span class="wpcf7-form-control-wrap"
-                                                                            data-name="your-email"><input size="40"
-                                                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false" value=""
-                                                                                type="email" name="your-email" /></span>
-                                                                    </p>
-                                                                    <p>Select your doctor<br />
-                                                                        <span class="wpcf7-form-control-wrap"
-                                                                            data-name="Doctor"><select
-                                                                                class="wpcf7-form-control wpcf7-select"
-                                                                                aria-invalid="false" name="Doctor">
-																				<option value="Alicia Harley">Dr.Yogesh Lade</option>
-                                                                                <option value="Sussie Wolff">Dr. Mayur Tirmakhe</option>
-                                                                                <option value="George Button">Dr. Asmita Lade</option>
-                                                                                <option value="Adam Hackett">Dr. Astha Tirmakhe</option>
-                                                                                <option value="Ashley Wilson">Ashley
-                                                                                    Wilson</option>
-                                                                            </select></span>
-                                                                    </p>
-                                                                    <p><span class="bt_bb_required">Select appointment
-                                                                            date</span><br />
-                                                                        <span class="wpcf7-form-control-wrap"
-                                                                            data-name="date-638"><input
-                                                                                class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
-                                                                                aria-required="true"
-                                                                                aria-invalid="false"
-                                                                                placeholder="Please select date"
-                                                                                value="" type="date"
-                                                                                name="date-638" /></span>
-                                                                    </p>
-                                                                    <p>Additional Message<br />
-                                                                        <span class="wpcf7-form-control-wrap"
-                                                                            data-name="your-message"><textarea cols="40"
-                                                                                rows="4"
-                                                                                class="wpcf7-form-control wpcf7-textarea"
-                                                                                aria-invalid="false"
-                                                                                name="your-message"></textarea></span>
-                                                                    </p>
-                                                                    <p><input
-                                                                            class="wpcf7-form-control has-spinner wpcf7-submit"
-                                                                            type="submit" value="BOOK APPOINTMENT" />
-                                                                    </p>
-                                                                    <div class="wpcf7-response-output"
-                                                                        aria-hidden="true"></div>
-                                                                </form>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+																		<svg xmlns="http://www.w3.org/2000/svg"
+																			width="36" height="36" fill="currentColor"
+																			id="phone" class="bi bi-phone-vibrate"
+																			viewBox="0 0 16 16">
+																			<path
+																				d="M10 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z" />
+																			<path
+																				d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z" />
+																		</svg>
+
+																	</span>
+																</div>
+																<div class="sTxt">
+																	<header class="header btClear small">
+																		<div class="dash">
+																			<h4><span class="headline">CALL US
+																					ANYTIME</span></h4>
+																		</div>
+																	</header>
+																	<p>+91-98-513-513-98 <br>+91-90-3846-3846</p>
+																</div>
+															</div>
+														</a>
+														<div
+															class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
+															<hr>
+														</div>
+														<a
+															href="https://www.google.com/maps/place/Shree+Life+Care+Hospital/@19.8849518,74.4798717,15z/data=!4m2!3m1!1s0x0:0x6b44ac8275f70cce?sa=X&ved=2ahUKEwjfoYqOwtaAAxURSmwGHahoCQQQ_BJ6BAhAEAA&ved=2ahUKEwjfoYqOwtaAAxURSmwGHahoCQQQ_BJ6BAhLEAg">
+															<div
+																class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
+																<div class="sIcon"><span
+																		class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
+																			data-ico-hs=""
+																			class="btIcoHolder"><em></em></span>
+
+																		<svg xmlns="http://www.w3.org/2000/svg"
+																			width="36" height="36" fill="currentColor"
+																			class="bi bi-geo-alt" viewBox="0 0 16 16">
+																			<path
+																				d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" />
+																			<path
+																				d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+																		</svg>
+
+
+
+																	</span>
+																</div>
+																<div class="sTxt">
+																	<header class="header btClear small">
+																		<div class="dash">
+																			<h4><span class="headline">VISIT US
+																					ANYTIME</span></h4>
+																		</div>
+																	</header>
+																	<p>Shree Life Care Hospital & IVF Center
+																		Near Bagul Towers, Opposite to Bus
+																		Stand,
+																		Kopargaon - 423601.
+																	</p>
+																</div>
+															</div>
+														</a>
+														<div
+															class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
+															<hr>
+														</div>
+														<a href="Appointments.html">
+
+															<div
+																class="servicesItem  btIcoAccentColorIcon btIcoMediumSizeIcon  ">
+																<div class="sIcon"><span
+																		class="btIco btIcoMediumSize btIcoDefaultType btIcoAccentColor"><span
+																			data-ico-hs="" class="btIcoHolder"><em></em>
+
+																			<svg xmlns="http://www.w3.org/2000/svg"
+																				width="36" height="36"
+																				fill="currentColor"
+																				class="bi bi-heart-pulse"
+																				viewBox="0 0 16 16">
+																				<path
+																					d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01L8 2.748ZM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5Z" />
+																				<path
+																					d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162l-1.874-4.686Z" />
+																			</svg>
+
+
+																		</span></span>
+																</div>
+																<div class="sTxt">
+																	<header class="header btClear small">
+																		<div class="dash">
+																			<h4><span class="headline">BOOK AN
+																					APPOINTMENT</span></h4>
+																		</div>
+																	</header>
+																	<p>Click here to book an appointment at Shree Life
+																		care.
+																	</p>
+																</div>
+															</div>
+														</a>
+														<div
+															class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
+															<hr>
+														</div>
+													</div>
+												</div>
+												<div
+													class="rowItem col-md-8 col-ms-12 btTextLeft animate animate-fadein inherit btDoublePadding">
+													<div class="rowItemContent">
+														<div class="btText">
+															<div class="wpcf7 no-js" id="wpcf7-f681-p298-o1"
+																lang="en-US" dir="ltr">
+																<div class="screen-reader-response">
+																	<p role="status" aria-live="polite"
+																		aria-atomic="true">
+																	<ul></ul>
+																</div>
+
+																<form method="post" class="wpcf7-form init"
+																method="post" id="appointment-form"
+																onsubmit="return validateForm()"
+																aria-label="Contact form" novalidate="novalidate"
+																data-status="init" aria-label="Contact form"
+																novalidate="novalidate" data-status="init">
+																<div style="display: none;">
+																	<input type="hidden" name="_wpcf7"
+																		value="681" /><br />
+																	<input type="hidden" name="_wpcf7_version"
+																		value="5.7.5.1" /><br />
+																	<input type="hidden" name="_wpcf7_locale"
+																		value="en_US" /><br />
+																	<input type="hidden" name="_wpcf7_unit_tag"
+																		value="wpcf7-f681-p298-o1" /><br />
+																	<input type="hidden"
+																		name="_wpcf7_container_post"
+																		value="298" /><br />
+																	<input type="hidden"
+																		name="_wpcf7_posted_data_hash"
+																		value="" /><br />
+																	<input type="hidden"
+																		name="_wpcf7_recaptcha_response" value="" />
+																</div>
+																<p>
+																	<span class="bt_bb_required">Name Of
+																		Patient</span><br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="your-name">
+																		<input size="40" id="name"
+																			class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+																			aria-required="true"
+																			aria-invalid="false" value=""
+																			type="text" name="your-name"
+																			required /></span>
+																</p>
+
+																<p>
+																	<span class="bt_bb_required">Your
+																		Email</span><br />
+
+																	<span class=""
+																		data-name="your-email">
+
+																		<input size="40" id="email"
+																			class="wpcf7-form-control wpcf7-text  wpcf7-validates-as-required wpcf7-validates-as-email"
+																			aria-required="true"
+																			aria-invalid="false" value=""
+																			type="email" name="your-email"
+																			required /></span>
+																</p>
+
+																<p>
+																	<span class="bt_bb_required">Age of
+																		Patient</span><br />
+
+																	<span class=""
+																		data-name="your-email">
+
+																		<input size="40" id="age"
+																			class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
+																			aria-required="true"
+																			aria-invalid="false" value=""
+																			type="email" name="your-email"
+																			required /></span>
+																</p>
+
+																<p>Gender<br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="Doctor">
+																		<select id="gender"
+																			class="wpcf7-form-control wpcf7-select"
+																			aria-invalid="false" name="Doctor">
+																			<option value="Male">Male</option>
+																			<option value="Female">Female</option>
+																		</select></span>
+																</p>
+
+																<p> Select a Time<br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="Doctor">
+																		<select id="time"
+																			class="wpcf7-form-control wpcf7-select"
+																			aria-invalid="false" name="time">
+																			<option value="11:00 AM">11:00 AM</option>
+																			<option value="12:00 PM">12:00 PM</option>
+																			<option value="01:00 PM">01:00 PM</option>:
+																			<option value="02:00 PM">02:00 PM</option>
+																			<option value="03:00 PM">03:00 PM</option>
+																			<option value="05:00 PM">05:00 PM</option>
+																			<option value="06:00 PM">06:00 PM</option>
+																			<option value="07:00 PM">07:00 PM</option>
+																			<option value="08:00 PM">08:00 PM</option>
+																			<!-- <option value="Dr.Anita Magar"></option>
+																			<option value="Dr.Mayuri Khedkar"></option>
+																			<option value="Dr.Kunal Nikam"></option> -->
+																		</select></span>
+																</p>
+
+
+																<p>Select your doctor<br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="Doctor">
+																		<select id="doctor"
+																			class="wpcf7-form-control wpcf7-select"
+																			aria-invalid="false" name="Doctor">
+																			<option value="Dr.Yogesh Lade">Dr.Yogesh
+																				Lade</option>
+																			<option value="Dr.Mayur Tirmakhe">Dr.
+																				Mayur Tirmakhe</option>
+																			<option value="Dr.Asmita Lade">Dr.
+																				Asmita Lade</option>:
+																			<option value="Dr.Astha Tirmakhe">Dr.
+																				Astha Tirmakhe</option>
+																			<option value="Dr.Abha Boob">Dr. Abha
+																				Boob</option>
+																			<option value="Dr.Rahul Holkar">Dr.
+																				Rahul Holkar</option>
+																			<option value="Dr.Megha Gondhali">Dr.
+																				Megha Gondhali</option>
+																			<option value="Dr.Khanderao Magar">
+																				Dr.Khanderao Magar</option>
+																			<option value="Dr.B.S.Dhakane">Dr.
+																				B.S.Dhakane</option>
+																			<option value="Dr.Anita Magar">Dr. Anita
+																				Magar</option>
+																			<option value="Dr.Mayuri Khedkar">Dr.
+																				Mayuri Khedkar</option>
+																			<option value="Dr.Kunal Nikam">Dr. Kunal
+																				Nikam</option>
+																		</select></span>
+																</p>
+
+																<p><span class="bt_bb_required">Phone </span><br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="date-638">
+																		<input id="phoneNo"
+																			class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
+																			aria-required="true"
+																			aria-invalid="false" placeholder=""
+																			value="" type="tel"
+																			name="phone" /></span>
+																</p>
+
+																<p><span class="bt_bb_required">Select appointment
+																		date</span><br />
+																	<span class="wpcf7-form-control-wrap"
+																		data-name="date-638">
+																		<input id="date"/
+																			class="wpcf7-form-control wpcf7-date wpcf7-validates-as-required wpcf7-validates-as-date"
+																			aria-required="true"
+																			aria-invalid="false"
+																			placeholder="Please select date"
+																			value="" type="date"
+																			name="date-638" /></span>
+																</p>
+
+															   
+																<p>
+																	<input
+																		class="wpcf7-form-control has-spinner wpcf7-submit"
+																		type="submit" 
+																		onclick="saveAppointmentForm(); reset(); return false;";
+																		value="BOOK APPOINTMENT" />
+																</p>
+																<!-- <div class="wpcf7-response-output"
+																	aria-hidden="true"></div> -->
+															</form>
+
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
 					</div>
 				</div>
 			</div>
 			<!-- /contentHolder -->
 		</div>
 		<!-- /contentWrap -->
+		<!-- *************************** Footer ********************************** -->
 		<div class="bt_bb_wrapper">
-            <section id="bt_section6479a021adda8"
-                class="boldSection topSemiSpaced bottomSemiSpaced btDarkSkin gutter inherit"
-                style="background-color:#00c6Af;">
-                <div class="port">
-                    <div class="boldCell">
-                        <div class="boldCellInner">
-                            <div class="boldRow  bt_bb_hidden_xs bt_bb_hidden_ms bt_bb_hidden_sm">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-8 col-ms-12 btTextLeft">
-                                        <div class="rowItemContent">
-                                            <div class="btIconImageRow">
-                                                <div class="bpgPhoto btTextCenter">
-                                                    <div class="btImage"><img src="logo all 208x55-06.png"
-                                                            id="Last_Logo" alt="" title=""></div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
-                                                <hr>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextCenter btMiddleVertical btNoPadding">
-                                        <div class="rowItemContent">
-                                            <div class="btText">
-                                                <p>Visit us on social networks:</p>
-                                            </div>
-                                            <div class="btIconImageRow"><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.facebook.com" target="no_target"
-                                                        data-ico-fa="&#xf09a;"
-                                                        class="btIcoHolder"><em></em></a></span><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.twitter.com" target="no_target"
-                                                        data-ico-fa="&#xf099;"
-                                                        class="btIcoHolder"><em></em></a></span><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.linkedin.com" target="no_target"
-                                                        data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boldRow  bt_bb_hidden_md bt_bb_hidden_lg">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12  btTextCenter inherit">
-                                        <div class="rowItemContent">
-                                            <div class="btIconImageRow">
-                                                <div class="bpgPhoto btTextCenter">
-                                                    <div class="btImage"><img src="shee life care logo-06.png" alt=""
-                                                            title=""></div>
-                                                </div>
-                                            </div>
-                                            <div
-                                                class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
-                                                <hr>
-                                            </div>
-                                            <div class="btText">
-                                                <p>Visit us on social networks:</p>
-                                            </div>
-                                            <div class="btIconImageRow"><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.facebook.com" target="no_target"
-                                                        data-ico-fa="&#xf09a;"
-                                                        class="btIcoHolder"><em></em></a></span><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.twitter.com" target="no_target"
-                                                        data-ico-fa="&#xf099;"
-                                                        class="btIcoHolder"><em></em></a></span><span
-                                                    class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
-                                                        href="http://www.linkedin.com" target="no_target"
-                                                        data-ico-fa="&#xf0e1;" class="btIcoHolder"><em></em></a></span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boldRow  ">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-12 col-ms-12  btTextLeft">
-                                        <div class="rowItemContent">
-                                            <div class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
-                                                <hr>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="boldRow  ">
-                                <div class="boldRowInner">
-                                    <div class="rowItem col-md-8 col-ms-12 btTextLeft btMiddleVertical btNoPadding">
-                                        <div class="rowItemContent">
-                                            <div class="btCustomMenu btInlineFooterMenu">
-                                                <div class="menu-main-menu-container">
-                                                    <ul id="menu-main-menu-1" class="menu">
-                                                        <li
-                                                            class="btHidden menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-983 current_page_item menu-item-1421">
-                                                            <a href="index.html" aria-current="page">Home</a>
-                                                        </li>
-                                                        <li
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1398">
-                                                            <a href="AboutUs.html">About
-                                                                us</a>
-                                                            <ul class="sub-menu">
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399">
-                                                                    <a href="AboutUs.html">Information</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1385">
-                                                                    <a href="Team.html">Team</a>
-                                                                </li>
-                                                             
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
-                                                                    <a href="Working_hours.html">Working
-                                                                        hours</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1381">
-                                                                    <a href="Appointments.html">Appointments</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1382">
-                                                                    <a href="Contact-us.html">Contact</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li
-                                                            class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1624">
-                                                            <a href="#">
-																Resource</a>
-                                                            <ul class="sub-menu">
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
-                                                                    <a href="services.html">Services</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1390">
-                                                                    <a href="Departments.html">Departments</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586">
-                                                                    <a href="Location .html">Location</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1389">
-                                                                    <a href="Cost-calculator.html">Cost
-                                                                        calculator</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391">
-                                                                    <a href="FAQ.html">FAQ</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394">
-                                                                    <a href="Testimonials.html">Testimonials</a>
-                                                                </li>
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
-                                                                    <a href="Pricing.html">Pricing</a>
-                                                                </li>
-                                                            </ul>
-                                                        </li>
-                                                        <li
-                                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409">
-                                                            <a href="Classic-list.html">Latest
-                                                                news</a>
-                                                            <ul class="sub-menu">
-                                                                <li
-                                                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
-                                                                    <a href="Classic-list.html">Classic
-                                                                        list</a>
-                                                                </li>
-                                                               
-                                                            </ul>
-                                                        </li>
+			<section id="bt_section6479a021adda8"
+				class="boldSection topSemiSpaced bottomSemiSpaced btDarkSkin gutter inherit"
+				style="background-color:#00c6Af;">
+				<div class="port">
+					<div class="boldCell">
+						<div class="boldCellInner">
+							<div class="boldRow  bt_bb_hidden_xs bt_bb_hidden_ms bt_bb_hidden_sm">
+								<div class="boldRowInner">
+									<div class="rowItem col-md-8 col-ms-12 btTextLeft">
+										<div class="rowItemContent">
+											<div class="btIconImageRow">
+												<div class="bpgPhoto btTextCenter">
+													<div class="btImage"><img src="logo all 208x55-06.png"
+															id="Last_Logo" alt="" title=""></div>
+												</div>
+											</div>
+											<div
+												class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
+												<hr>
+											</div>
+										</div>
+									</div>
+									<div class="rowItem col-md-4 col-ms-12 btTextCenter btMiddleVertical btNoPadding">
+										<div class="rowItemContent">
+											<div class="btText">
+												<p>Visit us on social networks:</p>
+											</div>
+											<div class="btIconImageRow"><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.facebook.com/shreelifecare.org"
+														target="no_target" data-ico-fa="&#xf09a;"
+														class="btIcoHolder"><em></em></a></span><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.youtube.com/channel/UC2XIS3yxKFN9UDxiJNeqd9w"
+														target="no_target" data-ico-fa="&#xf16a;"
+														class="btIcoHolder"><em></em></a></span><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.instagram.com/shree.life.care/"
+														target="no_target" data-ico-fa="&#xf16d;"
+														class="btIcoHolder"><em></em></a></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="boldRow  bt_bb_hidden_md bt_bb_hidden_lg">
+								<div class="boldRowInner">
+									<div class="rowItem col-md-12 col-ms-12  btTextCenter inherit">
+										<div class="rowItemContent">
+											<div class="btIconImageRow">
+												<div class="bpgPhoto btTextCenter">
+													<div class="btImage"><img src="shee life care logo-06.png" alt=""
+															title=""></div>
+												</div>
+											</div>
+											<div
+												class="btClear btSeparator bottomSemiSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
+												<hr>
+											</div>
+											<div class="btText">
+												<p>Visit us on social networks:</p>
+											</div>
+											<div class="btIconImageRow"><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.facebook.com/shreelifecare.org"
+														target="no_target" data-ico-fa="&#xf09a;"
+														class="btIcoHolder"><em></em></a></span><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.youtube.com/channel/UC2XIS3yxKFN9UDxiJNeqd9w"
+														target="no_target" data-ico-fa="&#xf16a;"
+														class="btIcoHolder"><em></em></a></span><span
+													class="btIco btIcoFilledType btIcoSmallSize btIcoDefaultColor   "><a
+														href="https://www.instagram.com/shree.life.care/"
+														target="no_target" data-ico-fa="&#xf16d;"
+														class="btIcoHolder"><em></em></a></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="boldRow  ">
+								<div class="boldRowInner">
+									<div class="rowItem col-md-12 col-ms-12  btTextLeft">
+										<div class="rowItemContent">
+											<div class="btClear btSeparator topSmallSpaced bottomSmallSpaced border">
+												<hr>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="boldRow  ">
+								<div class="boldRowInner">
+									<div class="rowItem col-md-8 col-ms-12 btTextLeft btMiddleVertical btNoPadding">
+										<div class="rowItemContent">
+											<div class="btCustomMenu btInlineFooterMenu">
+												<div class="menu-main-menu-container">
+													<ul id="menu-main-menu-1" class="menu">
+														<li
+															class="btHidden menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-983 current_page_item menu-item-1421">
+															<a href="index.html" aria-current="page">Home</a>
+														</li>
+														<li
+															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1398">
+															<a href="AboutUs.html">About
+																us</a>
+															<ul class="sub-menu">
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1399">
+																	<a href="AboutUs.html">Overview</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1385">
+																	<a href="Team.html">Team</a>
+																</li>
 
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="btClear btSeparator bottomSmallSpaced noBorder">
-                                                <hr>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="rowItem col-md-4 col-ms-12 btTextCenter inherit btNoPadding">
-                                        <div class="rowItemContent">
-                                            <header class="header btClear large  btNormalDash">
-                                                <div class="dash">
-                                                    <h2><span class="headline"><strong
-                                                                class="animate">+91-98-513-513-98</strong></span></h2>
-                                                </div>
-                                            </header>
-                                            <div class="btClear btSeparator bottomExtraSmallSpaced noBorder">
-                                                <hr>
-                                            </div>
-                                            <div class="btText">
-                                                <p>Call us now if you are in a medical emergency need,
-                                                    we will reply swiftly and provide you with a medical aid.</p>
-                                            </div>
-                                            <div
-                                                class="btClear btSeparator topSmallSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
-                                                <hr>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="btFooterWrap">
-            <section class="boldSection gutter btSiteFooter btGutter">
-                <div class="port">
-                    <div class="boldRow">
-                        <div class="rowItem btFooterCopy col-lg-6 btTextLeft">
-                            <p class="copyLine">Copyright by BoldThemes 2018. All rights reserved.</p>
-                        </div>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
+																	<a href="Doctors_profile.html">Founder's profile</a>
+																</li>
 
-                        <div class="rowItem btFooterMenu col-lg-6 col-sm-12 btTextRight">
-                            <div class="fooWidgets">
-                                <div class="btTopBox widget_search">
-                                    <div class="btSearch">
-                                        <div class="btSearchInner" role="search">
-                                            <div class="btSearchInnerContent">
-                                                <form action="" method="get"><input type="text" name="s"
-                                                        placeholder="Looking for..." class="untouched"><button
-                                                        type="submit" data-icon=""></button></form>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> <a href="http://www.facebook.com" target="_blank"
-                                    class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                            class="btIco "><span data-ico-fa="&#xf09a;"
-                                                class="btIcoHolder"><em></em></span></span></span></a><a
-                                    href="http://www.twitter.com" target="_blank"
-                                    class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                            class="btIco "><span data-ico-fa="&#xf099;"
-                                                class="btIcoHolder"><em></em></span></span></span></a><a
-                                    href="http://www.linkedin.com" target="_blank"
-                                    class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
-                                            class="btIco "><span data-ico-fa="&#xf0e1;"
-                                                class="btIcoHolder"><em></em></span></span></span></a>
-                            </div>
-                            <ul id="menu-sub-footer-menu" class="menu">
-                                <li id="menu-item-1376"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1376">
-                                    <a href="AboutUs.html">About
-                                        us</a>
-                                </li>
-                                <li id="menu-item-1379"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1379">
-                                    <a href="services.html">Services</a>
-                                </li>
-                                <li id="menu-item-1377"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1377">
-                                    <a href="Contact-us.html">Contact
-                                        us</a>
-                                </li>
-                                <li id="menu-item-1378"
-                                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1378">
-                                    <a href="Working_hours.html">Working
-                                        hours</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1386">
+																	<a href="Working_hours.html">Working
+																		hours</a>
+																</li>
+																<!-- <li
+																		class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1381">
+																		<a href="Appointments.html">Appointments</a>
+																	</li>
+																	<li
+																		class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1382">
+																		<a href="Contact-us.html">Contact</a>
+																	</li> -->
+															</ul>
+														</li>
+														<li
+															class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1624">
+															<a href="#">Specialties</a>
+															<ul class="sub-menu">
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1388">
+																	<a href="services.html">Services</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1390">
+																	<a href="Departments.html">Departments</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1586">
+																	<a href="Location .html">Location</a>
+																</li>
+																<!-- <li
+																		class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1389">
+																		<a href="Cost-calculator.html">Cost
+																			calculator</a>
+																	</li> -->
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1391">
+																	<a href="FAQ.html">FAQ</a>
+																</li>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1394">
+																	<a href="Testimonials.html">Testimonials</a>
+																</li>
+																<!-- <li
+																		class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1393">
+																		<a href="Pricing.html">Pricing</a>
+																	</li> -->
+															</ul>
+														</li>
+														<li
+															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409">
+															<a href="Classic-list.html">blogs</a>
+															<!-- <ul class="sub-menu">
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
+																	<a href="Classic-list.html">Classic
+																		list</a>
+																</li>
 
-                </div>
+															</ul> -->
+														</li>
+														<li
+															class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1409">
+															<a href="Contact-us.html">Contact</a>
+															<ul class="sub-menu">
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
+																	<a href="Appointments.html">Appointement</a>
+																</li>
 
-            </section>
-        </div>
+																<li
+																	class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1387">
+																	<a href="Contact-us.html">Contact-us</a>
+																</li>
+
+															</ul>
+														</li>
+
+													</ul>
+												</div>
+											</div>
+											<div class="btClear btSeparator bottomSmallSpaced noBorder">
+												<hr>
+											</div>
+										</div>
+									</div>
+									<div class="rowItem col-md-4 col-ms-12 btTextCenter inherit btNoPadding">
+										<div class="rowItemContent">
+											<header class="header btClear large  btNormalDash">
+												<div class="dash">
+													<h2><span class="headline"><strong
+																class="animate">+91-98-513-513-98</strong></span></h2>
+												</div>
+											</header>
+											<div class="btClear btSeparator bottomExtraSmallSpaced noBorder">
+												<hr>
+											</div>
+											<div class="btText">
+												<p>Call us now if you are in a medical emergency need,
+													we will reply swiftly and provide you with a medical aid.</p>
+											</div>
+											<div
+												class="btClear btSeparator topSmallSpaced noBorder bt_bb_hidden_md bt_bb_hidden_lg">
+												<hr>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<div class="btFooterWrap">
+			<section class="boldSection gutter btSiteFooter btGutter">
+				<div class="port">
+					<div class="boldRow">
+						<div class="rowItem btFooterCopy col-lg-6 btTextLeft">
+							<p class="copyLine">Copyright by Shree Life care 2023. All rights reserved.</p>
+						</div>
+
+						<div class="rowItem btFooterMenu col-lg-6 col-sm-12 btTextRight">
+							<div class="fooWidgets">
+								<div class="btTopBox widget_search">
+									<div class="btSearch">
+										<div class="btSearchInner" role="search">
+											<div class="btSearchInnerContent">
+												<form action="" method="get"><input type="text" name="s"
+														placeholder="Looking for..." class="untouched"><button
+														type="submit" data-icon=""></button></form>
+											</div>
+										</div>
+									</div>
+								</div> <a href="https://www.facebook.com/shreelifecare.org" target="_blank"
+									class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+											class="btIco "><span data-ico-fa="&#xf09a;"
+												class="btIcoHolder"><em></em></span></span></span></a><a
+									href="https://www.youtube.com/channel/UC2XIS3yxKFN9UDxiJNeqd9w" target="_blank"
+									class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+											class="btIco "><span data-ico-fa="&#xf16a;"
+												class="btIcoHolder"><em></em></span></span></span></a><a
+									href="https://www.instagram.com/shree.life.care/" target="_blank"
+									class="btIconWidget  btSpecialHeaderIcon"><span class="btIconWidgetIcon"><span
+											class="btIco "><span data-ico-fa="&#xf16d;"
+												class="btIcoHolder"><em></em></span></span></span></a>
+							</div>
+							<ul id="menu-sub-footer-menu" class="menu">
+								<li id="menu-item-1376"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1376">
+									<a href="AboutUs.html">About
+										us</a>
+								</li>
+								<li id="menu-item-1379"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1379">
+									<a href="services.html">Services</a>
+								</li>
+								<li id="menu-item-1377"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1377">
+									<a href="Contact-us.html">Contact
+										us</a>
+								</li>
+								<li id="menu-item-1378"
+									class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1378">
+									<a href="Working_hours.html">Working
+										hours</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+
+			</section>
+		</div>
+		<!-- *************************** Footer  End ********************************** -->
 
 
 	</div>
@@ -3487,6 +3898,8 @@
 		});
 
 	</script>
+	 <script src="script.js"></script>
+	<script src="services.js"></script>
 	<script src="https://www.google.com/recaptcha/api.js?onload=wp_recaptchaLoadCallback&#038;render=explicit" async
 		defer></script>
 	<!-- END recaptcha -->

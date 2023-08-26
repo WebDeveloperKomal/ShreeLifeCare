@@ -2,7 +2,7 @@
 
 .bi-stopwatch {
     position: absolute;
-    margin-left: -73px;
+    margin-left: -7%;
     margin-top: 4px;
     color: #fff;
 }
@@ -36,82 +36,6 @@
 
 /* ******** TIME Chat Css *********** */
 
-
-/* *************** dr info ************* */
-
-.Dr_Pediatrician {
-    position: absolute;
-    background-color: #007ac6;
-    margin-top: -105px;
-    border-radius: 90px;
-}
-
-#Pediatrics {
-    /* position: absolute; */
-    margin-top: -35px;
-}
-
-#Dr_Pediatrician_img {
-    height: 100px;
-    width: 100px;
-}
-
-.Dr_Surgeon {
-    position: absolute;
-    background-color: #007ac6;
-    margin-top: -105px;
-    border-radius: 90px;
-}
-
-#Dr_Surgeon_img {
-    height: 110px;
-    width: 100px;
-    margin-top: -10px;
-}
-
-.btTextIndent .btImage img {
-    height: 273px;
-}
-
-
-
-#GYNECOLOGY1 {
-    margin-top: -15px;
-}
-
-#Laboratory {
-    margin-top: 10px;
-}
-
-#Pediatrics {
-    margin-top: -35px;
-}
-
-
-#Dental1 {
-    width: 130px;
-    height: 170px;
-}
-
-
-/* *************** dr info ************* */
-
-/* *********** MAP Css *********** */
-
-.sIcon svg {
-    color: #007ac6;
-}
-
-.sIcon svg:hover {
-    color: aqua;
-}
-
-#phone {
-    margin-left: 2px;
-    margin-top: -10px;
-}
-
-/* *********** MAP Css *********** */
 
 /* ******** footer css *********** */
 .btImage #Last_Logo{

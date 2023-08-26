@@ -2,7 +2,7 @@
 
 .bi-stopwatch {
     position: absolute;
-    margin-left: -73px;
+    margin-left: -7%;
     margin-top: 4px;
     color: #fff;
 }
@@ -23,7 +23,9 @@
     display: block;
 }
 
-
+#more,
+#more1,
+#more2,#more3,#more4,#more5 {display: none;}
 
 /* ********** nav css ************** */
 
