@@ -2,10 +2,14 @@
 
 .bi-stopwatch {
     position: absolute;
-    margin-left: -73px;
+    margin-left: -7.2%;
     margin-top: 4px;
     color: #fff;
 }
+
+#more,
+#more1,
+#more2,#more3,#more4,#more5 {display: none;}
 
 .bi-phone-vibrate {
     position: absolute;
@@ -23,7 +27,7 @@
 }
 
 
-/* ********** nav css ************** */
+/*********** nav css ***************/
 
 
 .Dentist_round {
@@ -41,7 +45,44 @@
     width: 60px;
 }
 
+#Dentist1 {
+    margin: 3px 0px;
+    width: 80px;
 
+}
+
+
+/* ******** Dr Info ******** */
+
+.Dr_Pediatrician{
+    position: absolute;
+    background-color: #007ac6;
+    margin-top: -25px;
+    height: 85px;
+    width: 85px;
+    border-radius: 90px;
+}
+
+#Pediatrics{
+    /* position: absolute; */
+    margin-top: -35px;
+}
+#Dr_Pediatrician_img{
+    height: 70px;
+    width: 70px;
+    margin: 8px 5px;
+}
+
+#Dr_Pediatrician_img1{
+    height: 70px;
+    width: 60px;
+    margin: 5px 10px;
+}
+.header.medium .btSuperTitle {
+    margin: 50px 0 12px;
+}
+
+/* ******** Dr Info ******** */
 
 
 /* ************** last round **************** */
